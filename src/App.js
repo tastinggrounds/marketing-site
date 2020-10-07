@@ -14,7 +14,7 @@ import './App.css';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <div className="router-container">
           <div className="right-grouping">
@@ -36,13 +36,13 @@ export default function App() {
         <hr />
 
         <Switch>
-          <Route exact path={`${process.env.PUBLIC_URL}/`}>
+          <Route exact path="/">
             <HomeScreen />
           </Route>
-          <Route path={`${process.env.PUBLIC_URL}/support`}>
+          <Route path="/support">
             <SupportScreen />
           </Route>
-          <Route path={`${process.env.PUBLIC_URL}/feedback`}>
+          <Route path="/feedback">
             <FeedbackScreen />
           </Route>
         </Switch>
