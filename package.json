@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3"
   },
   "scripts": {
@@ -15,7 +16,8 @@
     "build": "react-scripts build && rm -rf docs && mv build docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postinstall": "npx husky install"
+    "postinstall": "npx husky install",
+    "lint": "eslint ./src --quiet"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,6 +35,8 @@
     ]
   },
   "devDependencies": {
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-react": "^7.21.3",
     "husky": "^4.3.0"
   },
   "husky": {
