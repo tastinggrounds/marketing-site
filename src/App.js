@@ -8,6 +8,7 @@ import {
 
 import HomeScreen from './screens/HomeScreen/HomeScreen';
 import SupportScreen from './screens/SupportScreen/SupportScreen';
+import FeedbackScreen from './screens/FeedbackScreen/FeedbackScreen';
 
 import './App.css';
 
@@ -16,15 +17,20 @@ export default function App() {
     <Router>
       <div>
         <div className="router-container">
-          <Link className="home-link" to="/">
-            <img
-              src="assets/app-icon.png"
-              width={45}
-              height={45}
-              alt="tasting grounds logo"
-            />
-          </Link>
-          <Link className="support-link" to="/support">Support</Link>
+          <div className="right-grouping">
+            <Link className="home-link" to="/">
+              <img
+                src="assets/app-icon.png"
+                width={45}
+                height={45}
+                alt="tasting grounds logo"
+              />
+            </Link>
+          </div>
+          <div className="left-grouping">
+            <Link className="right-link" to="/support">Support</Link>
+            <Link className="right-link" to="/feedback">Feedback</Link>
+          </div>
         </div>
 
         <hr />
@@ -33,8 +39,11 @@ export default function App() {
           <Route exact path="/">
             <HomeScreen />
           </Route>
-          <Route path="/support">
+          <Route path={`${process.env.PUBLIC_URL}/support`}>
             <SupportScreen />
+          </Route>
+          <Route path={`${process.env.PUBLIC_URL}/feedback`}>
+            <FeedbackScreen />
           </Route>
         </Switch>
       </div>

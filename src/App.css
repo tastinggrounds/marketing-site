@@ -9,13 +9,15 @@
   background-color: #ffffff;
 }
 
-.support-link {
+.right-link {
   color: #203530;
   text-decoration: none;
   font-weight: 700;
   font-size: 22px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.support-link:hover {
+.right-link:hover {
   color: #c9d6df;
 }
