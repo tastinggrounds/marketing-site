@@ -36,7 +36,7 @@ export default function App() {
         <hr />
 
         <Switch>
-          <Route exact path="/">
+          <Route exact path={`${process.env.PUBLIC_URL}/`}>
             <HomeScreen />
           </Route>
           <Route path={`${process.env.PUBLIC_URL}/support`}>
