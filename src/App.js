@@ -9,6 +9,7 @@ import {
 import HomeScreen from './screens/HomeScreen/HomeScreen';
 import SupportScreen from './screens/SupportScreen/SupportScreen';
 import FeedbackScreen from './screens/FeedbackScreen/FeedbackScreen';
+import PrivacyPolicyScreen from './screens/PrivacyPolicyScreen/PrivacyPolicyScreen';
 
 import './App.css';
 
@@ -44,6 +45,9 @@ export default function App() {
           </Route>
           <Route path="/feedback">
             <FeedbackScreen />
+          </Route>
+          <Route path="/privacy">
+            <PrivacyPolicyScreen />
           </Route>
         </Switch>
       </div>
