@@ -1,0 +1,24 @@
+.HomeButtonContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomeIconImage {
+  width: 50px;
+}
+
+.HomeTextImage {
+  width: 200px;
+}
+
+@media ( max-width : 600px) {
+  .HomeTextImage {
+    display: none;
+  }
+
+  .HomeIconImage {
+    width: 50px;
+  }
+}

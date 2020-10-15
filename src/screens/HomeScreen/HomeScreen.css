@@ -1,7 +1,58 @@
-.home-container {
+.HomeScreenContainer {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.ScreenshotImage {
+  width: 300px;
+}
+
+.HomeScreenContentContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomeScreenContentTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.DownloadButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width : 800px) {
+  .ScreenshotImage {
+    width: 70vw;
+  }
+
+  .HomeScreenContentContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .HomeScreenContentTextContainer {
+    width: 80vw;
+    text-align: center;
+  }
+
+  .DownloadButtonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

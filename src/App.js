@@ -11,6 +11,8 @@ import SupportScreen from './screens/SupportScreen/SupportScreen';
 import FeedbackScreen from './screens/FeedbackScreen/FeedbackScreen';
 import PrivacyPolicyScreen from './screens/PrivacyPolicyScreen/PrivacyPolicyScreen';
 
+import HomeButton from './components/HomeButton/HomeButton';
+
 import './App.css';
 
 export default function App() {
@@ -20,12 +22,7 @@ export default function App() {
         <div className="router-container">
           <div className="right-grouping">
             <Link className="home-link" to="/">
-              <img
-                src="assets/app-icon.png"
-                width={45}
-                height={45}
-                alt="tasting grounds logo"
-              />
+              <HomeButton />
             </Link>
           </div>
           <div className="left-grouping">

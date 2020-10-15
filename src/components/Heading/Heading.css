@@ -1,0 +1,53 @@
+.heading-component-base {
+  color: #203530;
+}
+
+.heading-component-1 {
+  font-size: 50px;
+}
+
+.heading-component-2 {
+  font-size: 46px;
+}
+
+.heading-component-3 {
+  font-size: 42px;
+}
+
+.heading-component-4 {
+  font-size: 38px;
+}
+
+.heading-component-5 {
+  font-size: 34px;
+}
+
+.heading-component-6 {
+  font-size: 30px;
+}
+
+@media (max-width : 500px) {
+  .heading-component-1 {
+    font-size: 36px;
+  }
+  
+  .heading-component-2 {
+    font-size: 32px;
+  }
+  
+  .heading-component-3 {
+    font-size: 28px;
+  }
+  
+  .heading-component-4 {
+    font-size: 24px;
+  }
+  
+  .heading-component-5 {
+    font-size: 20px;
+  }
+
+  .heading-component-6 {
+    font-size: 16px;
+  }
+}
