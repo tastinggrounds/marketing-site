@@ -1,13 +1,12 @@
-.router-container {
+.AppHeaderContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
+  padding: 5px 10px;
   background-color: #ffffff;
   height: 75px;
+  border-bottom: 1px solid black;
 }
 
 .right-link {
@@ -21,4 +20,12 @@
 
 .right-link:hover {
   color: #c9d6df;
+}
+
+.AppContentContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  /* This px value is calculated using the header and footer heights and margins */
+  min-height: calc(100vh - 196px);
 }

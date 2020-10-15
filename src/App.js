@@ -20,7 +20,7 @@ export default function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div>
-        <div className="router-container">
+        <div className="AppHeaderContainer">
           <div className="right-grouping">
             <Link className="home-link" to="/">
               <HomeButton />
@@ -32,22 +32,22 @@ export default function App() {
           </div>
         </div>
 
-        <hr />
-
-        <Switch>
-          <Route exact path="/">
-            <HomeScreen />
-          </Route>
-          <Route path="/support">
-            <SupportScreen />
-          </Route>
-          <Route path="/feedback">
-            <FeedbackScreen />
-          </Route>
-          <Route path="/privacy">
-            <PrivacyPolicyScreen />
-          </Route>
-        </Switch>
+        <div className="AppContentContainer">
+          <Switch>
+            <Route exact path="/">
+              <HomeScreen />
+            </Route>
+            <Route path="/support">
+              <SupportScreen />
+            </Route>
+            <Route path="/feedback">
+              <FeedbackScreen />
+            </Route>
+            <Route path="/privacy">
+              <PrivacyPolicyScreen />
+            </Route>
+          </Switch>
+        </div>
       </div>
       <Footer />
     </Router>
