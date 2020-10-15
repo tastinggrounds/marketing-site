@@ -20,7 +20,7 @@ export default function Footer() {
             alt="follow us on Twitter"
           />
         </a>
-        <a href="https://www.facebook.com/tastingroundsapp">
+        <a href="https://www.facebook.com/Tasting-Grounds-103688631520558">
           <img
             src="assets/facebook.png"
             className="FooterLogoImage"
