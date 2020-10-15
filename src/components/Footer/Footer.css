@@ -1,0 +1,29 @@
+.FooterContainer {
+  background-color: #203530;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px 0px;
+}
+
+.FooterLogoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.FooterLogoImage {
+  width: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.FooterCopyright {
+  color: #FFFFFF;
+  margin: 0;
+}

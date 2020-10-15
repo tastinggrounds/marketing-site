@@ -12,6 +12,7 @@ import FeedbackScreen from './screens/FeedbackScreen/FeedbackScreen';
 import PrivacyPolicyScreen from './screens/PrivacyPolicyScreen/PrivacyPolicyScreen';
 
 import HomeButton from './components/HomeButton/HomeButton';
+import Footer from './components/Footer/Footer';
 
 import './App.css';
 
@@ -48,6 +49,7 @@ export default function App() {
           </Route>
         </Switch>
       </div>
+      <Footer />
     </Router>
   );
 }
