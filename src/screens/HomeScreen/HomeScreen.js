@@ -1,8 +1,6 @@
 import React from 'react';
 
-import AppleStoreButton from '../../components/AppleStoreButton/AppleStoreButton';
-import GooglePlayStoreButton from '../../components/GooglePlayStoreButton/GooglePlayStoreButton';
-import Heading from '../../components/Heading/Heading';
+import { Heading, AppleStoreButton, GooglePlayStoreButton } from '../../components';
 
 import './HomeScreen.css';
 

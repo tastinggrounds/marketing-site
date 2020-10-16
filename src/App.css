@@ -23,6 +23,7 @@
 }
 
 .AppContentContainer {
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   padding-left: 20px;

@@ -1,11 +1,13 @@
 import React from 'react';
 
+import { Heading } from '../../components';
+
 import './SupportScreen.css';
 
 export default function SupportScreen() {
   return (
-    <div className="support-container">
-      <h1>Support</h1>
+    <div>
+      <Heading size={Heading.SIZES.XLARGE}>Support</Heading>
       <p>
         For support requests, please email&nbsp;
         <a

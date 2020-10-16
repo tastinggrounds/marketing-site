@@ -6,7 +6,7 @@ import './PrivacyPolicyScreen.css';
 
 export default function PrivacyPolicyScreen() {
   return (
-    <div className="pp-container">
+    <div>
       <h1>Privacy Policy</h1>
 
       <p>Last updated: October 10, 2020</p>
