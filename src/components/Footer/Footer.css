@@ -51,3 +51,23 @@
 .pp-link {
   color: #ffffff;
 }
+
+@media (max-width : 1000px) {
+  .FooterContainer {
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+
+  .FooterLeftContainer {
+    order: 3;
+  }
+
+  .FooterCenterContainer {
+    order: 1;
+  }
+
+  .FooterRightContainer {
+    order: 2;
+    padding: 15px 0;
+  }
+}
