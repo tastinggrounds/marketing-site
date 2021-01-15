@@ -7,9 +7,11 @@ import {
 } from 'react-router-dom';
 
 import HomeScreen from './screens/HomeScreen/HomeScreen';
-import SupportScreen from './screens/SupportScreen/SupportScreen';
-import FeedbackScreen from './screens/FeedbackScreen/FeedbackScreen';
+import AboutScreen from './screens/AboutScreen/AboutScreen';
+import ContactScreen from './screens/ContactScreen/ContactScreen';
 import PrivacyPolicyScreen from './screens/PrivacyPolicyScreen/PrivacyPolicyScreen';
+import OurStoryScreen from './screens/AboutScreen/AboutDetailScreens/OurStoryScreen';
+import InformationStandardsScreen from './screens/AboutScreen/AboutDetailScreens/InformationStandardsScreen';
 
 import HomeButton from './components/HomeButton/HomeButton';
 import Footer from './components/Footer/Footer';
@@ -27,8 +29,8 @@ export default function App() {
             </Link>
           </div>
           <div className="left-grouping">
-            <Link className="right-link" to="/support">Support</Link>
-            <Link className="right-link" to="/feedback">Feedback</Link>
+            <Link className="right-link" to="/about">About</Link>
+            <Link className="right-link" to="/contact">Contact</Link>
           </div>
         </div>
 
@@ -37,11 +39,17 @@ export default function App() {
             <Route exact path="/">
               <HomeScreen />
             </Route>
-            <Route path="/support">
-              <SupportScreen />
+            <Route exact path="/about">
+              <AboutScreen />
             </Route>
-            <Route path="/feedback">
-              <FeedbackScreen />
+            <Route exact path="/about/our-story">
+                <OurStoryScreen />
+            </Route>
+            <Route exact path="/about/information-standards">
+                <InformationStandardsScreen/>
+            </Route>
+            <Route path="/contact">
+              <ContactScreen />
             </Route>
             <Route path="/privacy">
               <PrivacyPolicyScreen />

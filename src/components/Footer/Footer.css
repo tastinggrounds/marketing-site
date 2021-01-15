@@ -38,7 +38,7 @@
 }
 
 .FooterLogoImage {
-  width: 40px;
+  width: 35px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -46,10 +46,12 @@
 .FooterCopyright {
   color: #FFFFFF;
   margin: 0;
+  font-size: 14px;
 }
 
 .pp-link {
   color: #ffffff;
+  text-decoration: none;
 }
 
 @media (max-width : 1000px) {

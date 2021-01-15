@@ -4,10 +4,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 50px;
 }
 
 .ScreenshotImage {
-  width: 300px;
+  width: 400px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .HomeScreenContentContainer {
@@ -22,6 +25,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  max-width: 500px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 25px;
 }
 
 .DownloadButtonContainer {
@@ -29,11 +37,18 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-top: 50px;
 }
 
 @media (max-width : 800px) {
   .ScreenshotImage {
     width: 70vw;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .HomeScreenContainer {
+    padding-top: 25px;
   }
 
   .HomeScreenContentContainer {
@@ -54,5 +69,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 25px;
   }
 }
