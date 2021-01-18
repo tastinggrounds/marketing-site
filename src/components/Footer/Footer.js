@@ -11,7 +11,7 @@ export default function Footer() {
           href="https://www.sqreen.com/?utm_source=badge"
         >
           <img
-            style={{ width: 109, height: 36 }}
+            style={{ width: 82, height: 27 }}
             src="https://s3-eu-west-1.amazonaws.com/sqreen-assets/badges/20171107/sqreen-light-badge.svg"
             alt="Sqreen | Runtime Application Protection"
           />
@@ -43,7 +43,7 @@ export default function Footer() {
             />
           </a>
         </div>
-        <p className="FooterCopyright">Copyright 2020 | Tasting Grounds</p>
+        <p className="FooterCopyright">Copyright 2021 | Tasting Grounds, LLC</p>
       </div>
       <div className="FooterRightContainer">
         <a className="pp-link" href="/privacy">Privacy Policy</a>

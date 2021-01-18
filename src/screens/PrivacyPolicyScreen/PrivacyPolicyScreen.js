@@ -6,12 +6,12 @@ import './PrivacyPolicyScreen.css';
 
 export default function PrivacyPolicyScreen() {
   return (
-    <div>
+    <div className="PrivacyPolicyText">
       <h1>Privacy Policy</h1>
 
-      <p>Last updated: October 10, 2020</p>
+      <p>Last updated: January 14, 2021</p>
       <p>
-        We care deeply about your privacy. This Privacy Policy describes how and when Tasting Grounds (“Tasting Grounds”, “we”, “us”, or “our”) collects, uses, and shares personal information when you use this website,&nbsp;
+        We care deeply about your privacy. This Privacy Policy describes how and when Tasting Grounds, LLC (“Tasting Grounds”, “we”, “us”, or “our”) collects, uses, and shares personal information when you use this website,&nbsp;
         <a href="https://tastinggrounds.com">https://tastinggrounds.com</a>
         , or our mobile application(s), collectively referred to as the “Service”.
       </p>
@@ -69,7 +69,7 @@ export default function PrivacyPolicyScreen() {
       <p>We may share aggregate or de-identified information without restriction. This information may include, without limitation, the number of users who have registered for the Service. Such aggregate information does not identify you individually.</p>
 
       <h2>Security</h2>
-      <p>We use reasonable measures to protect personal information under our control. We also require our third-party service providers to use reasonable measures to protect the confidentiality and security of the personal information they maintain for us. Unfortunately, no data transmission or data storage system can be guaranteed to be 100% secure. If you have reason to believe that your interaction with us is no longer secure, please immediately notify us of the problem by contacting us in accordance with the Contact Us” section below.</p>
+      <p>We use reasonable measures to protect personal information under our control. We also require our third-party service providers to use reasonable measures to protect the confidentiality and security of the personal information they maintain for us. Unfortunately, no data transmission or data storage system can be guaranteed to be 100% secure. If you have reason to believe that your interaction with us is no longer secure, please immediately notify us of the problem by contacting us in accordance with the "Contact Us” section below.</p>
 
       <h2>Your Choices</h2>
 

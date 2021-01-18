@@ -1,0 +1,12 @@
+.PrivacyPolicyText {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+@media (max-width : 800px) {
+    .PrivacyPolicyText {
+      width: 70vw;
+      padding-left: unset;
+      padding-right: unset;
+    }
+}

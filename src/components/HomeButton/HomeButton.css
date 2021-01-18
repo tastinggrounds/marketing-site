@@ -6,7 +6,7 @@
 }
 
 .HomeIconImage {
-  width: 50px;
+  width: 70px;
 }
 
 .HomeTextImage {
@@ -15,7 +15,7 @@
 
 @media ( max-width : 600px) {
   .HomeTextImage {
-    display: none;
+    width: 120px;
   }
 
   .HomeIconImage {

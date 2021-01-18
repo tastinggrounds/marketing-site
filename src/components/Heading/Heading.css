@@ -23,7 +23,9 @@
 }
 
 .heading-component-6 {
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: unset;
+  color: black;
 }
 
 @media (max-width : 500px) {
