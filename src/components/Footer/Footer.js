@@ -23,21 +23,21 @@ export default function Footer() {
         <div className="FooterLogoContainer">
           <a href="https://www.instagram.com/tastinggrounds/">
             <img
-              src="assets/instagram.png"
+              src={ process.env.PUBLIC_URL + '/assets/instagram.png' }
               className="FooterLogoImage"
               alt="follow us on Instagram"
             />
           </a>
           <a href="https://twitter.com/tastinggrounds">
             <img
-              src="assets/twitter.png"
+              src={ process.env.PUBLIC_URL + '/assets/twitter.png' }
               className="FooterLogoImage"
               alt="follow us on Twitter"
             />
           </a>
           <a href="https://www.facebook.com/Tasting-Grounds-103688631520558">
             <img
-              src="assets/facebook.png"
+              src={ process.env.PUBLIC_URL + '/assets/facebook.png' }
               className="FooterLogoImage"
               alt="follow us on Facebook"
             />

@@ -7,13 +7,13 @@ export default function HomeButton() {
     <div className="HomeButtonContainer">
       <img
         className="HomeIconImage"
-        src="assets/app-icon.png"
+        src={ process.env.PUBLIC_URL + '/assets/app-icon.png' }
         alt="tasting grounds logo"
       />
       <img
         className="HomeTextImage"
-        src="assets/app-text.png"
-        alt="tasting grounds logo"
+        src={ process.env.PUBLIC_URL + '/assets/app-text.png' }
+        alt="tasting grounds logo text"
       />
     </div>
   );

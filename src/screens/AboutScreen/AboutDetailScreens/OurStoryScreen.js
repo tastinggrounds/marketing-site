@@ -37,6 +37,7 @@ export default function OurStoryScreen() {
         <p>We hope you love using Tasting Grounds as much as we do. Don’t forget to <Link to="/contact">share your feedback with us</Link> and rate & review Tasting Grounds on your app store to help shape the future of the community! ✨</p>
         <p>- Peter</p> 
         <em>Note, I originally wrote published this on <a href="https://rebelvcoffee.com/brew-coffee-together-introducing-tasting-grounds/">our good friends blog</a>. Edits have been made for context. </em>🤙
+        <p></p>
       </div>
     </div>
   );
