@@ -3,11 +3,10 @@ import { Route } from 'react-router';
  
 export default (
     <Route>
-	<Route path='/' />
-	<Route path='/about' />
-    <Route path='/about/our-story' />
-    <Route path='/about/information-standards' />
-    <Route path='/contact' />
-    <Route path='/privacy' />
+	<Route path='/?/about' />
+    <Route path='/?/about/our-story' />
+    <Route path='/?/about/information-standards' />
+    <Route path='/?/contact' />
+    <Route path='/?/privacy' />
     </Route>
 );
