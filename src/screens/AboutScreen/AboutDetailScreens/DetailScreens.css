@@ -7,6 +7,11 @@
     text-align: left;
     padding-left: 20vw;
     padding-right: 20vw;
+    font-size: 20px;
+}
+
+.AboutDetailSceensBodyContainer h5 {
+    margin: auto;
 }
 
 .AlignCenter {
@@ -23,10 +28,23 @@
     height: 400px;
 }
 
+.GrindSizeIcon {
+    width: 225px;
+    float: left;
+    padding: 25px;
+}
+
+.GrindSizeImages {
+    float: right;
+    width: 400px;
+    padding: 10px
+}
+
 @media (max-width : 800px) {
     .AboutDetailSceensBodyContainer {
         padding-left: 10vw;
         padding-right: 10vw;
+        font-size: 16px;
     }
 
     .AppProfileImage {
@@ -37,5 +55,14 @@
     .CoffeeBagsImage {
         width: 200px; 
         height: 200px;
+    }
+
+    .GrindSizeIcon {
+        width: 150px;
+    }
+
+    .GrindSizeImages {
+        width: 300px;
+        padding-right: unset;
     }
 }
