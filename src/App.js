@@ -17,14 +17,14 @@ import GrindSizesScreen from './screens/AboutScreen/AboutDetailScreens/GrindSize
 
 import HomeButton from './components/HomeButton/HomeButton';
 import Footer from './components/Footer/Footer';
-import ScrollTopTop from './components/ScrollToTop/ScrollToTop';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 import './App.css';
 
 export default function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <ScrollTopTop />
+      <ScrollToTop />
       <div>
         <div className="AppHeaderContainer">
           <div className="right-grouping">
