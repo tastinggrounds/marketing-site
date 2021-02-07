@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import Helmet from 'react-helmet';
 
 import { Heading, IconImagesRow } from '../../components';
 
@@ -11,7 +11,7 @@ export default function AboutScreen() {
   return (
     <div className="AboutScreenContainer">
       <Helmet>
-        <title>Tasting Grounds | About</title>
+        <title>Tasting Grounds | About the coffee app</title>
         <meta 
           name="description" 
           content="About Tasting Grounds - the specialty coffee app for logging & tracking your brew process, discovering new coffees & roasters, and sharing with your friends & the community." 

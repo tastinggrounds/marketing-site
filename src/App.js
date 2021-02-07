@@ -5,7 +5,7 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import Helmet from 'react-helmet';
 
 import HomeScreen from './screens/HomeScreen/HomeScreen';
 import AboutScreen from './screens/AboutScreen/AboutScreen';
@@ -17,12 +17,14 @@ import GrindSizesScreen from './screens/AboutScreen/AboutDetailScreens/GrindSize
 
 import HomeButton from './components/HomeButton/HomeButton';
 import Footer from './components/Footer/Footer';
+import ScrollTopTop from './components/ScrollToTop/ScrollToTop';
 
 import './App.css';
 
 export default function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
+      <ScrollTopTop />
       <div>
         <div className="AppHeaderContainer">
           <div className="right-grouping">
@@ -36,15 +38,15 @@ export default function App() {
           </div>
         </div>
 
+        <Helmet>
+          <title>Tasting Grounds | Discover, Rate, and Share Coffee</title>
+          <meta
+            name="description"
+            content="Log & rate your coffee brews, discover new coffees & roasters, and share with the community of fellow coffee lovers with the Tasting Grounds app for iOS and Android!"
+          />
+        </Helmet>
+
         <div className="AppContentContainer">
-          <Helmet>
-            <title>Tasting Grounds | Discover, Rate, and Share Coffee</title>
-            <meta
-              name="description"
-              content="Log & rate your coffee brews, discover new coffees & roasters, and share with the community of fellow coffee lovers with the Tasting Grounds app for iOS and Android!"
-            />
-          </Helmet>
-        
           <Switch>
             <Route exact path="/">
               <HomeScreen />

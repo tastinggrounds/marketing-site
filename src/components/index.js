@@ -3,6 +3,7 @@ import Footer from './Footer/Footer';
 import GooglePlayStoreButton from './GooglePlayStoreButton/GooglePlayStoreButton';
 import AppleStoreButton from './AppleStoreButton/AppleStoreButton';
 import IconImagesRow from './IconImagesRow/IconImagesRow';
+import ScrollToTop from './ScrollToTop/ScrollToTop';
 
 export {
   Heading,
@@ -10,4 +11,5 @@ export {
   GooglePlayStoreButton,
   AppleStoreButton,
   IconImagesRow,
+  ScrollToTop,
 };

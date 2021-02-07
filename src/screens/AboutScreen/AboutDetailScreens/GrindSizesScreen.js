@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 import { Heading } from '../../../components';
 
@@ -7,12 +8,19 @@ import './DetailScreens.css';
 export default function InformationStandardsScreen() {
   return (
     <div className="AboutDetailScreensContainer">
+      <Helmet>
+        <title>Tasting Grounds | Grind Sizes Guidelines for Brewing Coffee</title>
+        <meta 
+          name="description" 
+          content="The Tasting Grounds coffee app guidelines for coffee grind sizes based on the brew method and recommended settings for Comandante C40, Timemore Chestnut, Fellow Ode, and Baratz Encore grinders." 
+        />
+      </Helmet>
       <Heading size={Heading.SIZES.XXLARGE}>Coffee Grind Sizes</Heading>
       <div className="AboutDetailSceensBodyContainer">
         <p>Grind size is one of the important and easily-adjustable characteristics of your brew process.</p>
         <img
           className="GrindSizeIcon" 
-          src={require("./grind-size-icon.png")} 
+          src={require("./GrindSizesAssets/grind-size-icon.png")} 
           alt="grind size icon" 
         />
         <p>The primary impact grind size has on your brew is the surface area of the coffee grounds which the water will be in contact with. A finer grind has a larger total surface area and will extract the coffee faster while a coarser grind will have a smaller surface area and will extract slower.</p>
@@ -21,7 +29,7 @@ export default function InformationStandardsScreen() {
         <br />
         <img
           className="GrindSizeImages" 
-          src={require("./very-fine.png")} 
+          src={require("./GrindSizesAssets/very-fine.png")} 
           alt="very fine grind size" 
         />
         <Heading size={Heading.SIZES.SMALL}>Very Fine</Heading>
@@ -37,7 +45,7 @@ export default function InformationStandardsScreen() {
         <br />
         <img
           className="GrindSizeImages" 
-          src={require("./fine.png")} 
+          src={require("./GrindSizesAssets/fine.png")} 
           alt="fine grind size" 
         />
         <Heading size={Heading.SIZES.SMALL}>Fine</Heading>
@@ -53,7 +61,7 @@ export default function InformationStandardsScreen() {
         <br />
         <img
           className="GrindSizeImages" 
-          src={require("./medium-fine.png")} 
+          src={require("./GrindSizesAssets/medium-fine.png")} 
           alt="medium-fine grind size" 
         />
         <Heading size={Heading.SIZES.SMALL}>Medium-Fine</Heading>
@@ -70,7 +78,7 @@ export default function InformationStandardsScreen() {
         <br />
         <img
           className="GrindSizeImages" 
-          src={require("./medium.png")} 
+          src={require("./GrindSizesAssets/medium.png")} 
           alt="medium grind size" 
         />
         <Heading size={Heading.SIZES.SMALL}>Medium</Heading>
@@ -86,7 +94,7 @@ export default function InformationStandardsScreen() {
         <br />
         <img
           className="GrindSizeImages" 
-          src={require("./medium-coarse.png")} 
+          src={require("./GrindSizesAssets/medium-coarse.png")} 
           alt="medium-coarse grind size" 
         />
         <Heading size={Heading.SIZES.SMALL}>Medium-Coarse</Heading>
@@ -102,7 +110,7 @@ export default function InformationStandardsScreen() {
         <br />
         <img
           className="GrindSizeImages" 
-          src={require("./coarse.png")} 
+          src={require("./GrindSizesAssets/coarse.png")} 
           alt="coarse grind size" 
         />
         <Heading size={Heading.SIZES.SMALL}>Coarse</Heading>
@@ -118,7 +126,7 @@ export default function InformationStandardsScreen() {
         <br />
         <img
           className="GrindSizeImages" 
-          src={require("./very-coarse.png")} 
+          src={require("./GrindSizesAssets/very-coarse.png")} 
           alt="very coarse grind size" 
         />
         <Heading size={Heading.SIZES.SMALL}>Very Coarse</Heading>

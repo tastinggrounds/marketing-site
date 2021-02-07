@@ -6,6 +6,7 @@ export default (
 	<Route path='/?/about' />
     <Route path='/?/about/our-story' />
     <Route path='/?/about/information-standards' />
+    <Route path='/?/about/coffee-grind-sizes' />
     <Route path='/?/contact' />
     <Route path='/?/privacy' />
     </Route>
