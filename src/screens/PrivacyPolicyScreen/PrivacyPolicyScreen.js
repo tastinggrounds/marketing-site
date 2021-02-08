@@ -1,12 +1,20 @@
 /* eslint-disable max-len */
 
 import React from 'react';
+import Helmet from 'react-helmet';
 
 import './PrivacyPolicyScreen.css';
 
 export default function PrivacyPolicyScreen() {
   return (
     <div className="PrivacyPolicyText">
+      <Helmet>
+        <title>Tasting Grounds | Privacy Policy for the coffee app to discover, rate, and review coffees</title>
+        <meta 
+          name="description" 
+          content="Privacy policy for Tasting Grounds. The iOS and Android coffee app for logging & tracking your brew process, discovering new coffees & roasters, and sharing with your friends & the community." 
+        />
+      </Helmet>
       <h1>Privacy Policy</h1>
 
       <p>Last updated: January 14, 2021</p>

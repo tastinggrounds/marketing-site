@@ -5,6 +5,7 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
+import Helmet from 'react-helmet';
 
 import HomeScreen from './screens/HomeScreen/HomeScreen';
 import AboutScreen from './screens/AboutScreen/AboutScreen';
@@ -12,15 +13,18 @@ import ContactScreen from './screens/ContactScreen/ContactScreen';
 import PrivacyPolicyScreen from './screens/PrivacyPolicyScreen/PrivacyPolicyScreen';
 import OurStoryScreen from './screens/AboutScreen/AboutDetailScreens/OurStoryScreen';
 import InformationStandardsScreen from './screens/AboutScreen/AboutDetailScreens/InformationStandardsScreen';
+import GrindSizesScreen from './screens/AboutScreen/AboutDetailScreens/GrindSizesScreen';
 
 import HomeButton from './components/HomeButton/HomeButton';
 import Footer from './components/Footer/Footer';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 import './App.css';
 
 export default function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
+      <ScrollToTop />
       <div>
         <div className="AppHeaderContainer">
           <div className="right-grouping">
@@ -34,6 +38,14 @@ export default function App() {
           </div>
         </div>
 
+        <Helmet>
+          <title>Tasting Grounds | Discover, Rate, and Share Coffee</title>
+          <meta
+            name="description"
+            content="Log & rate your coffee brews, discover new coffees & roasters, and share with the community of fellow coffee lovers with the Tasting Grounds app for iOS and Android!"
+          />
+        </Helmet>
+
         <div className="AppContentContainer">
           <Switch>
             <Route exact path="/">
@@ -42,11 +54,14 @@ export default function App() {
             <Route exact path="/about">
               <AboutScreen />
             </Route>
-            <Route exact path="/about/our-story">
+            <Route path="/about/our-story">
                 <OurStoryScreen />
             </Route>
-            <Route exact path="/about/information-standards">
+            <Route path="/about/information-standards">
                 <InformationStandardsScreen/>
+            </Route>
+            <Route path="/about/coffee-grind-sizes">
+                <GrindSizesScreen />
             </Route>
             <Route path="/contact">
               <ContactScreen />

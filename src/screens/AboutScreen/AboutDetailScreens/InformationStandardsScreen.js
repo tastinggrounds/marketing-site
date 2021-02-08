@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 
 import { Heading } from '../../../components';
 
@@ -7,7 +8,14 @@ import './DetailScreens.css';
 export default function InformationStandardsScreen() {
   return (
     <div className="AboutDetailScreensContainer">
-      <Heading size={Heading.SIZES.XXLARGE}>Information Standards</Heading>
+      <Helmet>
+        <title>Tasting Grounds | Coffee & Roaster Information Guidelines</title>
+        <meta 
+          name="description" 
+          content="The guidelines used by Tasting Grounds for verifying coffee and roasters information created by community users of the app." 
+        />
+      </Helmet>
+      <Heading size={Heading.SIZES.XXLARGE}>Coffee & Roaster Information Guidelines</Heading>
       <div className="AboutDetailSceensBodyContainer">
         <p>The Tasting Grounds team reviews and verifies all roasters and coffees that are added by members of the community. It is best and most helpful if you can enter as much information as accurately as possible, but do not worry if you don’t have all of the information handy.</p>
         <p>A few things to keep in mind when creating roasters and coffees:</p>

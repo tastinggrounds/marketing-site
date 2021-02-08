@@ -1,0 +1,32 @@
+.IconsImagesContainer {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.IconsImagesContainer img {
+  width: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width : 800px) {
+  .IconsImagesContainer img {
+    width: 150px;
+  }
+}
+
+@media (max-width : 600px) {
+  .IconsImagesContainer img {
+    width: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width : 500px) {
+  .IconsImagesContainer img {
+    width: 75px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
