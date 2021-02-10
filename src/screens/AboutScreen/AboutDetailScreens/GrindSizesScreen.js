@@ -27,11 +27,13 @@ export default function InformationStandardsScreen() {
         <p>A secondary impact grind size has on your brew, particularly with percolation brewing methods (like a pour over or drip), is resistance as the water flows through the grounds. A finer grind will slow the flow rate of the water and increase the level of extraction while a coarser will have a faster flow rate and a less extraction.</p>
         <p>Striking the right balance of surface area and resistance will make a huge difference in your resulting cup. When it comes to tracking your grind size in Tasting Grounds, it is difficult to account for the different settings on the many different grinders out there in a way that is useful to you and your friends in the community. That’s why we’ve set up seven categories of grind size. Here are some general guidelines to follow for those categories:</p>
         <br />
-        <img
-          className="GrindSizeImages" 
-          src={require("./GrindSizesAssets/very-fine.png")} 
-          alt="very fine grind size" 
-        />
+        <div className="AlignCenter">
+          <img
+            className="GrindSizeImages" 
+            src={require("./GrindSizesAssets/very-fine.png")} 
+            alt="very fine grind size" 
+          />
+        </div>
         <Heading size={Heading.SIZES.SMALL}>Very Fine</Heading>
         <p>A very fine grind is pretty similar in texture to flour.</p>
         <p><b>THINK:</b> Turkish Coffee</p>
@@ -43,11 +45,13 @@ export default function InformationStandardsScreen() {
           <li>Baratza Encore: 1-5</li>
         </ul>
         <br />
-        <img
-          className="GrindSizeImages" 
-          src={require("./GrindSizesAssets/fine.png")} 
-          alt="fine grind size" 
-        />
+        <div className="AlignCenter">
+          <img
+            className="GrindSizeImages" 
+            src={require("./GrindSizesAssets/fine.png")} 
+            alt="fine grind size" 
+          />
+        </div>
         <Heading size={Heading.SIZES.SMALL}>Fine</Heading>
         <p>A fine grind is going to be something like powdered sugar - not quite as coarse as sugar but not as fine as flour.</p>
         <p><b>THINK:</b> Espresso or Moka Pot</p>
@@ -59,11 +63,13 @@ export default function InformationStandardsScreen() {
           <li>Baratza Encore: 5-10</li>
         </ul>
         <br />
-        <img
-          className="GrindSizeImages" 
-          src={require("./GrindSizesAssets/medium-fine.png")} 
-          alt="medium-fine grind size" 
-        />
+        <div className="AlignCenter">
+          <img
+            className="GrindSizeImages" 
+            src={require("./GrindSizesAssets/medium-fine.png")} 
+            alt="medium-fine grind size" 
+          />
+        </div>
         <Heading size={Heading.SIZES.SMALL}>Medium-Fine</Heading>
         {/* eslint-disable-next-line */}
         <p>A medium-fine grind is...well it’s somewhere between the medium and fine examples (if someone can think of a good one let us know 🙃).</p>
@@ -76,11 +82,13 @@ export default function InformationStandardsScreen() {
           <li>Baratza Encore: 10-15</li>
         </ul>
         <br />
-        <img
-          className="GrindSizeImages" 
-          src={require("./GrindSizesAssets/medium.png")} 
-          alt="medium grind size" 
-        />
+        <div className="AlignCenter">
+          <img
+            className="GrindSizeImages" 
+            src={require("./GrindSizesAssets/medium.png")} 
+            alt="medium grind size" 
+          />
+        </div>
         <Heading size={Heading.SIZES.SMALL}>Medium</Heading>
         <p>A medium grind is slightly finer than table salt or close to dry sand.</p>
         <p><b>THINK:</b> Aeropress, Siphon, Flat-bottom (Kalita Wave) or Cone-shaped (Hario V60) brewers</p>
@@ -92,11 +100,13 @@ export default function InformationStandardsScreen() {
           <li>Baratza Encore: 10-20</li>
         </ul>
         <br />
-        <img
-          className="GrindSizeImages" 
-          src={require("./GrindSizesAssets/medium-coarse.png")} 
-          alt="medium-coarse grind size" 
-        />
+        <div className="AlignCenter">
+          <img
+            className="GrindSizeImages" 
+            src={require("./GrindSizesAssets/medium-coarse.png")} 
+            alt="medium-coarse grind size" 
+          />
+        </div>
         <Heading size={Heading.SIZES.SMALL}>Medium-Coarse</Heading>
         <p>A medium-coarse grind is somewhat gritty like a rough sand.</p>
         <p><b>THINK:</b> Chemex or Clever Dripper</p>
@@ -108,11 +118,13 @@ export default function InformationStandardsScreen() {
           <li>Baratza Encore: 20-25</li>
         </ul>
         <br />
-        <img
-          className="GrindSizeImages" 
-          src={require("./GrindSizesAssets/coarse.png")} 
-          alt="coarse grind size" 
-        />
+        <div className="AlignCenter">
+          <img
+            className="GrindSizeImages" 
+            src={require("./GrindSizesAssets/coarse.png")} 
+            alt="coarse grind size" 
+          />
+        </div>
         <Heading size={Heading.SIZES.SMALL}>Coarse</Heading>
         <p>A coarse grind is the consistency of kosher salt.</p>
         <p><b>THINK:</b> French Press</p>
@@ -124,11 +136,13 @@ export default function InformationStandardsScreen() {
           <li>Baratza Encore: 25-30</li>
         </ul>
         <br />
-        <img
-          className="GrindSizeImages" 
-          src={require("./GrindSizesAssets/very-coarse.png")} 
-          alt="very coarse grind size" 
-        />
+        <div className="AlignCenter">
+          <img
+            className="GrindSizeImages" 
+            src={require("./GrindSizesAssets/very-coarse.png")} 
+            alt="very coarse grind size" 
+          />
+        </div>
         <Heading size={Heading.SIZES.SMALL}>Very Coarse</Heading>
         <p>A very coarse grind is basically tiny pebbles...kidding! it is about the size of sea salt particles.</p>
         <p><b>THINK:</b> Cold Brew</p>

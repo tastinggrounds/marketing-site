@@ -40,10 +40,19 @@
     padding: 10px
 }
 
-@media (max-width : 800px) {
+@media (max-width : 1000px) {
     .AboutDetailSceensBodyContainer {
         padding-left: 10vw;
         padding-right: 10vw;
+    }
+
+    .GrindSizeImages {
+        float: unset;
+    }
+}
+
+@media (max-width : 800px) {
+    .AboutDetailSceensBodyContainer {
         font-size: 16px;
     }
 
@@ -63,6 +72,11 @@
 
     .GrindSizeImages {
         width: 300px;
-        padding-right: unset;
+    }
+}   
+
+@media (max-width : 600px) {
+    .GrindSizeImages {
+        width: 275px;
     }
 }

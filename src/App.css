@@ -27,7 +27,6 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
   /* This px value is calculated using the header and footer heights and margins */
   min-height: calc(100vh - 196px);
   background-image: url('background.png');

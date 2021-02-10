@@ -5,8 +5,7 @@
 
 @media (max-width : 800px) {
     .PrivacyPolicyText {
-      width: 70vw;
-      padding-left: unset;
-      padding-right: unset;
+      padding-left: 10vw;
+      padding-right: 10vw;
     }
 }
