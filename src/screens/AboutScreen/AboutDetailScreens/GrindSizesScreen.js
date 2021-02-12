@@ -17,7 +17,7 @@ export default function InformationStandardsScreen() {
       </Helmet>
       <Heading size={Heading.SIZES.XXLARGE}>Coffee Grind Sizes</Heading>
       <div className="AboutDetailSceensBodyContainer">
-        <p>Grind size is one of the important and easily-adjustable characteristics of your brew process.</p>
+        <p>Grind size is one of the most important and easily-adjustable characteristics of your brew process.</p>
         <img
           className="GrindSizeIcon" 
           src={require("./GrindSizesAssets/grind-size-icon.png")} 
