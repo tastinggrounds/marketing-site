@@ -1,33 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.e900410d.chunk.css",
-    "main.js": "/static/js/main.d345695c.chunk.js",
-    "main.js.map": "/static/js/main.d345695c.chunk.js.map",
+    "main.css": "/static/css/main.81e163a9.chunk.css",
+    "main.js": "/static/js/main.a133b0e8.chunk.js",
+    "main.js.map": "/static/js/main.a133b0e8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.998467c0.js",
     "runtime-main.js.map": "/static/js/runtime-main.998467c0.js.map",
-    "static/js/2.2a774e96.chunk.js": "/static/js/2.2a774e96.chunk.js",
-    "static/js/2.2a774e96.chunk.js.map": "/static/js/2.2a774e96.chunk.js.map",
+    "static/js/2.93530f54.chunk.js": "/static/js/2.93530f54.chunk.js",
+    "static/js/2.93530f54.chunk.js.map": "/static/js/2.93530f54.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.41517db18b04958ca7e56f5ccbeff344.js": "/precache-manifest.41517db18b04958ca7e56f5ccbeff344.js",
+    "precache-manifest.129cb6d09fe148fec985d4fd436da636.js": "/precache-manifest.129cb6d09fe148fec985d4fd436da636.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e900410d.chunk.css.map": "/static/css/main.e900410d.chunk.css.map",
-    "static/js/2.2a774e96.chunk.js.LICENSE.txt": "/static/js/2.2a774e96.chunk.js.LICENSE.txt",
+    "static/css/main.81e163a9.chunk.css.map": "/static/css/main.81e163a9.chunk.css.map",
+    "static/js/2.93530f54.chunk.js.LICENSE.txt": "/static/js/2.93530f54.chunk.js.LICENSE.txt",
     "static/media/app-profile.png": "/static/media/app-profile.e3fe7609.png",
     "static/media/App.css": "/static/media/background.1ddb8bc0.png",
-    "static/media/coarse.png": "/static/media/coarse.6e018563.png",
     "static/media/coffee-bags.png": "/static/media/coffee-bags.dc5c1a2d.png",
-    "static/media/fine.png": "/static/media/fine.5659e781.png",
     "static/media/grind-size-icon.png": "/static/media/grind-size-icon.6bccc743.png",
-    "static/media/medium-coarse.png": "/static/media/medium-coarse.51f34eae.png",
-    "static/media/medium-fine.png": "/static/media/medium-fine.21437177.png",
-    "static/media/medium.png": "/static/media/medium.2b30883a.png",
-    "static/media/very-coarse.png": "/static/media/very-coarse.859b46e4.png",
-    "static/media/very-fine.png": "/static/media/very-fine.38e933e9.png"
+    "static/media/tasting-notes-icon.png": "/static/media/tasting-notes-icon.1b801f2e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.998467c0.js",
-    "static/js/2.2a774e96.chunk.js",
-    "static/css/main.e900410d.chunk.css",
-    "static/js/main.d345695c.chunk.js"
+    "static/js/2.93530f54.chunk.js",
+    "static/css/main.81e163a9.chunk.css",
+    "static/js/main.a133b0e8.chunk.js"
   ]
 }
