@@ -1,16 +1,18 @@
-.AboutDetailScreensContainer {
+.LearnContentScreensContainer {
     justify-content: center;
     text-align: center; 
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
-.AboutDetailSceensBodyContainer {
+.LearnContentSceensBodyContainer {
     text-align: left;
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding-left: 18vw;
+    padding-right: 18vw;
     font-size: 20px;
 }
 
-.AboutDetailSceensBodyContainer h5 {
+.LearnContentSceensBodyContainer h5 {
     margin: auto;
 }
 
@@ -40,10 +42,16 @@
     padding: 10px
 }
 
+.TastingNotesIcon {
+    width: 400px;
+    float: left;
+    padding: 25px;
+}
+
 @media (max-width : 1000px) {
-    .AboutDetailSceensBodyContainer {
-        padding-left: 10vw;
-        padding-right: 10vw;
+    .LearnContentSceensBodyContainer {
+        padding-left: 8vw;
+        padding-right: 8vw;
     }
 
     .GrindSizeImages {
@@ -52,7 +60,7 @@
 }
 
 @media (max-width : 800px) {
-    .AboutDetailSceensBodyContainer {
+    .LearnContentSceensBodyContainer {
         font-size: 16px;
     }
 
@@ -68,15 +76,27 @@
 
     .GrindSizeIcon {
         width: 150px;
+        float: unset;
     }
 
     .GrindSizeImages {
         width: 300px;
+    }
+
+    .TastingNotesIcon {
+        float: unset;
+        padding: unset;
     }
 }   
 
 @media (max-width : 600px) {
     .GrindSizeImages {
         width: 275px;
+    }
+
+    .TastingNotesIcon {
+        float: unset;
+        padding: unset;
+        width: 300px;
     }
 }

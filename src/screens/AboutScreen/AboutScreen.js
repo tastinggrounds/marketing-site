@@ -11,7 +11,7 @@ export default function AboutScreen() {
   return (
     <div className="AboutScreenContainer">
       <Helmet>
-        <title>Tasting Grounds | About the coffee app</title>
+        <title>About | Tasting Grounds</title>
         <meta 
           name="description" 
           content="About Tasting Grounds - the specialty coffee app for logging & tracking your brew process, discovering new coffees & roasters, and sharing with your friends & the community." 
@@ -19,20 +19,39 @@ export default function AboutScreen() {
       </Helmet>
       <Heading size={Heading.SIZES.XXLARGE}>About</Heading>
       <div className="AboutScreenBodyContainer">
-        <Heading size={Heading.SIZES.MEDIUM}>Our Story</Heading>
-          <Heading size={Heading.SIZES.XSMALL}>We created Tasting Grounds to connect the coffee community and help everyone brew better coffee together! <Link to="about/our-story">Read a little more about our beginnings</Link>.
+          <Heading size={Heading.SIZES.XSMALL}>
+            We created Tasting Grounds to connect the coffee community - from farmers to roasters to drinkers - to share, learn about, and brew coffee together!
           </Heading>
           <IconImagesRow />
-        <Heading size={Heading.SIZES.MEDIUM}>Our Guidelines</Heading>
-        <div className="GuidelinesContainer">
-          <Heading size={Heading.SIZES.SMALL}>Coffee and Roaster Information</Heading>
-            <Heading size={Heading.SIZES.XSMALL}>The Tasting Grounds community thrives off of user generated content. The more coffees and roasters you add to our catalog, the more the rest of the community has to explore! We do our best to verify all user created content. <Link to="/about/information-standards">Read more about our information review and verification standards</Link>.
-            </Heading>
-          <Heading size={Heading.SIZES.SMALL}>Coffee Grind Sizes</Heading>
-            <Heading size={Heading.SIZES.XSMALL}>Grind size is one of the important and easily-adjustable characteristics of your brew process.  <Link to="/about/coffee-grind-sizes">Read more about grind sizes and our options</Link>. 
-            </Heading>
+          <Heading size={Heading.SIZES.MEDIUM}>Our Origin Story</Heading>
+          <p>In the descent from a coffee lover into a coffee-obsessed maniac, I started collecting a stack of coffee bags and scribbling difficult to read notes about each of my brews. When talking coffee with my friends, we’d often ask each other what we’d been drinking recently, how we had brewed it, and what flavors the coffee reminded us of. We were all in the pursuit of brewing and drinking the best coffee we possibly could. It was clear that life would be better if we could do all of this in one place.</p>
+          <figure className="AlignCenter">
+            <img 
+              className="CoffeeBagsImage" 
+              src={require("./coffee-bags.png")} 
+              alt="coffee bags" 
+            />
+              <figcaption>
+                <em>A small piece of my weird coffee bag collection.</em>
+              </figcaption>
+          </figure>
+          <p>I downloaded countless coffee apps in an attempt to solve this problem. Some nailed certain aspects of what I was looking for, some checked a few boxes but did so poorly, and others were simply so buggy that they were unusable. I pitched the idea to the best software engineer I knew (Patrick) and thus Tasting Grounds was born.</p>
+          <p>We are aiming to build a community for coffee beginners, aficionados, and experts to brew coffee together. With Tasting Grounds, you can log and rate your brews and tasting notes, explore what coffees other members of the community are drinking and what they are tasting, interact with your friends about their brews, and discover new roasters to love. We have many more features in the works to connect you more with the coffee community and to help you learn more about coffees, roasting, and brewing.</p>
+          <figure className="AlignCenter">
+            <img 
+              className="AppProfileImage" 
+              src={require("./app-profile.png")} 
+              alt="app profile" 
+            />
+              <figcaption>
+                <em>My much-improved coffee inventory, shared with my friends </em>😊
+              </figcaption>
+          </figure>
+          <p>We hope you love using Tasting Grounds as much as we do. Don’t forget to <Link to="/contact">share your feedback with us</Link> and rate & review Tasting Grounds on your app store to help shape the future of the community! ✨</p>
+          <p>- Peter</p> 
+          <em>Note, I originally wrote published this on <a href="https://citizenscoffee.co/brew-coffee-together-introducing-tasting-grounds/">our good friends blog</a>. Edits have been made for context. </em>🤙
+          <p></p>
         </div>
       </div>
-    </div>
   );
 }

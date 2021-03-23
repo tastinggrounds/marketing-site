@@ -3,20 +3,20 @@ import Helmet from 'react-helmet';
 
 import { Heading } from '../../../components';
 
-import './DetailScreens.css';
+import './LearnContentScreens.css';
 
 export default function InformationStandardsScreen() {
   return (
-    <div className="AboutDetailScreensContainer">
+    <div className="LearnContentScreensContainer">
       <Helmet>
-        <title>Tasting Grounds | Coffee & Roaster Information Guidelines</title>
+        <title>Guide to Coffee & Roaster Information | Tasting Grounds</title>
         <meta 
           name="description" 
           content="The guidelines used by Tasting Grounds for verifying coffee and roasters information created by community users of the app." 
         />
       </Helmet>
-      <Heading size={Heading.SIZES.XXLARGE}>Coffee & Roaster Information Guidelines</Heading>
-      <div className="AboutDetailSceensBodyContainer">
+      <Heading size={Heading.SIZES.XXLARGE}>Guide to Coffee & Roaster Information</Heading>
+      <div className="LearnContentSceensBodyContainer">
         <p>The Tasting Grounds team reviews and verifies all roasters and coffees that are added by members of the community. It is best and most helpful if you can enter as much information as accurately as possible, but do not worry if you don’t have all of the information handy.</p>
         <p>A few things to keep in mind when creating roasters and coffees:</p>
           <ul>
@@ -29,9 +29,12 @@ export default function InformationStandardsScreen() {
                 <li>The main label given to a coffee on the roaster’s website.</li>
                 <li>If the bag and website do not match exactly, we will favor the name on the bag.</li>
               </ul>
-            <li>We don’t support every flavor note that you’re going to see roasters use. Our flavor selections are based on the <a href="https://counterculturecoffee.com/learn/resource-center/coffee-tasters-flavor-wheel">Counter Culture flavor wheel</a>. We use this as it is well known and in our opinion, a fairly comprehensive wheel of common flavors coffees remind many people of. It also uses flavors that are known and accessible to many people - we don’t think flavor notes of rare and exotic fruits are very useful. If a flavor is referenced by the roaster that we do not have:</li>
+            <li>We don’t support every flavor note that you’re going to see roasters use or that you might think of when tasting. 
+              Our flavor selections are based on the <a href="https://counterculturecoffee.com/learn/resource-center/coffee-tasters-flavor-wheel" target="_blank" rel="noopener noreferrer">Counter Culture flavor wheel</a>. We use this as it is well known and a fairly comprehensive wheel of flavors people are reminded of and we want to work off a common baseline.
+              When you are reminded of a very specific taste in a coffee you brew, we recommend you mention it in the comment of your brew!
+              If a flavor is referenced by the roaster that we do not have:</li>
               <ul>
-                <li>We may select the closed similar flavor.</li>
+                <li>We may select the closed similar flavor(s).</li>
                 <li>We may exclude the flavor note all together.</li>
               </ul>
           </ul>
