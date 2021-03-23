@@ -1,0 +1,37 @@
+.LearnScreenContainer {
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.LearnScreenBodyContainer {
+    text-align: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.GuidelinesContainer h5 {
+    margin: auto;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.GuidelinesContainer h6 {
+    margin-top: auto;
+    font-size: 22px;
+}
+
+a {
+    color: #ae8951;
+}
+
+@media (max-width : 800px) {
+    .GuidelinesContainer h5 {
+        font-size: unset;
+        font-weight: bold;
+    }
+    
+    .GuidelinesContainer h6 {
+        font-size: unset;
+    }
+}

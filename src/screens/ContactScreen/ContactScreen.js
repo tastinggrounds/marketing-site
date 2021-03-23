@@ -9,10 +9,10 @@ export default function ContactScreen() {
   return (
     <div className="ContactScreenContainer">
       <Helmet>
-        <title>Tasting Grounds | Contact</title>
+        <title>Contact | Tasting Grounds</title>
         <meta 
           name="description" 
-          content="Contact Tasting Grounds. The iOS and Android coffee app for logging & tracking your brew process, discovering new coffees & roasters, and sharing with your friends & the community." 
+          content="Contact Tasting Grounds for help, feedback, bugs reports, or feature requests for the iOS and Android coffee app for logging & tracking your brew process, discovering new coffees & roasters, and sharing with your friends & the community." 
         />
       </Helmet>
       <Heading size={Heading.SIZES.XXLARGE}>Contact</Heading>

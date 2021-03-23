@@ -4,16 +4,17 @@ import {
   Switch,
   Route,
   Link,
+  Redirect,
 } from 'react-router-dom';
 import Helmet from 'react-helmet';
 
 import HomeScreen from './screens/HomeScreen/HomeScreen';
 import AboutScreen from './screens/AboutScreen/AboutScreen';
+import LearnScreen from './screens/LearnScreen/LearnScreen';
 import ContactScreen from './screens/ContactScreen/ContactScreen';
-import PrivacyPolicyScreen from './screens/PrivacyPolicyScreen/PrivacyPolicyScreen';
-import OurStoryScreen from './screens/AboutScreen/AboutDetailScreens/OurStoryScreen';
-import InformationStandardsScreen from './screens/AboutScreen/AboutDetailScreens/InformationStandardsScreen';
-import GrindSizesScreen from './screens/AboutScreen/AboutDetailScreens/GrindSizesScreen';
+import PrivacyPolicyScreen from './screens/PrivacyPolicyScreen/PrivacyPolicyScreen'
+import InformationStandardsScreen from './screens/LearnScreen/LearnContentScreens/InformationStandardsScreen';
+import GrindSizesScreen from './screens/LearnScreen/LearnContentScreens/GrindSizesScreen';
 
 import HomeButton from './components/HomeButton/HomeButton';
 import Footer from './components/Footer/Footer';
@@ -34,12 +35,13 @@ export default function App() {
           </div>
           <div className="left-grouping">
             <Link className="right-link" to="/about">About</Link>
+            <Link className="right-link" to="/learn">Learn</Link>
             <Link className="right-link" to="/contact">Contact</Link>
           </div>
         </div>
 
         <Helmet>
-          <title>Tasting Grounds | Discover, Rate, and Share Coffee</title>
+          <title>Tasting Grounds | Discover, Rate, Share, & Brew Coffee Together</title>
           <meta
             name="description"
             content="Log & rate your coffee brews, discover new coffees & roasters, and share with the community of fellow coffee lovers with the Tasting Grounds app for iOS and Android!"
@@ -54,13 +56,25 @@ export default function App() {
             <Route exact path="/about">
               <AboutScreen />
             </Route>
+            {/* To remove after indexing */}
             <Route path="/about/our-story">
-                <OurStoryScreen />
+                <Redirect to="/about" />
             </Route>
+            {/* To remove after indexing */}
             <Route path="/about/information-standards">
+                <Redirect to="/learn/information-standards" />
+            </Route>
+            {/* To remove after indexing */}
+            <Route path="/about/coffee-grind-sizes">
+                <Redirect to="/learn/coffee-grind-sizes" />
+            </Route>
+            <Route exact path="/learn">
+                <LearnScreen />
+            </Route>
+            <Route path="/learn/information-standards">
                 <InformationStandardsScreen/>
             </Route>
-            <Route path="/about/coffee-grind-sizes">
+            <Route path="/learn/coffee-grind-sizes">
                 <GrindSizesScreen />
             </Route>
             <Route path="/contact">
@@ -69,6 +83,7 @@ export default function App() {
             <Route path="/privacy">
               <PrivacyPolicyScreen />
             </Route>
+            <Redirect from="*" to="/" />
           </Switch>
         </div>
       </div>

@@ -5,9 +5,9 @@ import { Heading } from '../../../components';
 
 import './DetailScreens.css';
 
-export default function InformationStandardsScreen() {
+export default function GrindSizesScreen() {
   return (
-    <div className="AboutDetailScreensContainer">
+    <div className="LearnContentScreensContainer">
       <Helmet>
         <title>Tasting Grounds | Grind Sizes Guidelines for Brewing Coffee</title>
         <meta 
@@ -16,7 +16,7 @@ export default function InformationStandardsScreen() {
         />
       </Helmet>
       <Heading size={Heading.SIZES.XXLARGE}>Coffee Grind Sizes</Heading>
-      <div className="AboutDetailSceensBodyContainer">
+      <div className="LearnContentSceensBodyContainer">
         <p>Grind size is one of the most important and easily-adjustable characteristics of your brew process.</p>
         <img
           className="GrindSizeIcon" 

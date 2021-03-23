@@ -4,9 +4,9 @@ import { Route } from 'react-router';
 export default (
     <Route>
 	<Route path='/?/about' />
-    <Route path='/?/about/our-story' />
-    <Route path='/?/about/information-standards' />
-    <Route path='/?/about/coffee-grind-sizes' />
+    <Route path='/?/learn' />
+    <Route path='/?/learn/information-standards' />
+    <Route path='/?/learn/coffee-grind-sizes' />
     <Route path='/?/contact' />
     <Route path='/?/privacy' />
     </Route>
