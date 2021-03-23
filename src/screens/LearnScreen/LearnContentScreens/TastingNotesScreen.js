@@ -17,8 +17,8 @@ export default function TastingNotesScreen() {
       </Helmet>
       <Heading size={Heading.SIZES.XXLARGE}>Guide to Coffee Tasting Notes</Heading>
       <div className="LearnContentSceensBodyContainer">
-        <p>Expert coffee tasters score coffees by “cupping” <a href="https://sca.coffee/research/protocols-best-practices">following the protocols</a> put out by the Specialty Coffee Association (SCA). 
-          The <a href="https://store.sca.coffee/products/scaa-official-cupping-form?variant=14732977990">standard SCA cupping form</a> is used for recording tasting notes and scoring a common set of attributes used for evaluating the quality of a coffee.</p>
+        <p>Expert coffee tasters score coffees by “cupping” <a href="https://sca.coffee/research/protocols-best-practices" target="_blank" rel="noopener noreferrer">following the protocols</a> put out by the Specialty Coffee Association (SCA). 
+          The <a href="https://store.sca.coffee/products/scaa-official-cupping-form?variant=14732977990" target="_blank" rel="noopener noreferrer">standard SCA cupping form</a> is used for recording tasting notes and scoring a common set of attributes used for evaluating the quality of a coffee.</p>
         <div className="AlignCenter">
           <img
             className="TastingNotesIcon" 

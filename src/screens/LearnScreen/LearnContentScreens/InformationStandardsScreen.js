@@ -30,7 +30,7 @@ export default function InformationStandardsScreen() {
                 <li>If the bag and website do not match exactly, we will favor the name on the bag.</li>
               </ul>
             <li>We don’t support every flavor note that you’re going to see roasters use or that you might think of when tasting. 
-              Our flavor selections are based on the <a href="https://counterculturecoffee.com/learn/resource-center/coffee-tasters-flavor-wheel">Counter Culture flavor wheel</a>. We use this as it is well known and a fairly comprehensive wheel of flavors people are reminded of and we want to work off a common baseline.
+              Our flavor selections are based on the <a href="https://counterculturecoffee.com/learn/resource-center/coffee-tasters-flavor-wheel" target="_blank" rel="noopener noreferrer">Counter Culture flavor wheel</a>. We use this as it is well known and a fairly comprehensive wheel of flavors people are reminded of and we want to work off a common baseline.
               When you are reminded of a very specific taste in a coffee you brew, we recommend you mention it in the comment of your brew!
               If a flavor is referenced by the roaster that we do not have:</li>
               <ul>
