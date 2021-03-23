@@ -3,26 +3,28 @@ import { Helmet } from 'react-helmet';
 
 import { Heading } from '../../../components';
 
-import './DetailScreens.css';
+import './LearnContentScreens.css';
 
 export default function GrindSizesScreen() {
   return (
     <div className="LearnContentScreensContainer">
       <Helmet>
-        <title>Tasting Grounds | Grind Sizes Guidelines for Brewing Coffee</title>
+        <title>Guide to Coffee Grind Sizes | Tasting Grounds</title>
         <meta 
           name="description" 
           content="The Tasting Grounds coffee app guidelines for coffee grind sizes based on the brew method and recommended settings for Comandante C40, Timemore Chestnut, Fellow Ode, and Baratz Encore grinders." 
         />
       </Helmet>
-      <Heading size={Heading.SIZES.XXLARGE}>Coffee Grind Sizes</Heading>
+      <Heading size={Heading.SIZES.XXLARGE}>Guide to Coffee Grind Sizes</Heading>
       <div className="LearnContentSceensBodyContainer">
         <p>Grind size is one of the most important and easily-adjustable characteristics of your brew process.</p>
-        <img
-          className="GrindSizeIcon" 
-          src={require("./GrindSizesAssets/grind-size-icon.png")} 
-          alt="grind size icon" 
-        />
+        <div className="AlignCenter">
+          <img
+            className="GrindSizeIcon" 
+            src={require("./Assets/grind-size-icon.png")} 
+            alt="grind size icon" 
+          />
+        </div>
         <p>The primary impact grind size has on your brew is the surface area of the coffee grounds which the water will be in contact with. A finer grind has a larger total surface area and will extract the coffee faster while a coarser grind will have a smaller surface area and will extract slower.</p>
         <p>A secondary impact grind size has on your brew, particularly with percolation brewing methods (like a pour over or drip), is resistance as the water flows through the grounds. A finer grind will slow the flow rate of the water and increase the level of extraction while a coarser will have a faster flow rate and a less extraction.</p>
         <p>Striking the right balance of surface area and resistance will make a huge difference in your resulting cup. When it comes to tracking your grind size in Tasting Grounds, it is difficult to account for the different settings on the many different grinders out there in a way that is useful to you and your friends in the community. That’s why we’ve set up seven categories of grind size. Here are some general guidelines to follow for those categories:</p>
@@ -30,7 +32,7 @@ export default function GrindSizesScreen() {
         <div className="AlignCenter">
           <img
             className="GrindSizeImages" 
-            src={require("./GrindSizesAssets/very-fine.png")} 
+            src="https://production.cdntg.xyz/assets/learning/grind-size-very-fine.png"
             alt="very fine grind size" 
           />
         </div>
@@ -48,7 +50,7 @@ export default function GrindSizesScreen() {
         <div className="AlignCenter">
           <img
             className="GrindSizeImages" 
-            src={require("./GrindSizesAssets/fine.png")} 
+            src="https://production.cdntg.xyz/assets/learning/grind-size-fine.png"
             alt="fine grind size" 
           />
         </div>
@@ -66,7 +68,7 @@ export default function GrindSizesScreen() {
         <div className="AlignCenter">
           <img
             className="GrindSizeImages" 
-            src={require("./GrindSizesAssets/medium-fine.png")} 
+            src="https://production.cdntg.xyz/assets/learning/grind-size-medium-fine.png"
             alt="medium-fine grind size" 
           />
         </div>
@@ -85,7 +87,7 @@ export default function GrindSizesScreen() {
         <div className="AlignCenter">
           <img
             className="GrindSizeImages" 
-            src={require("./GrindSizesAssets/medium.png")} 
+            src="https://production.cdntg.xyz/assets/learning/grind-size-medium.png" 
             alt="medium grind size" 
           />
         </div>
@@ -103,7 +105,7 @@ export default function GrindSizesScreen() {
         <div className="AlignCenter">
           <img
             className="GrindSizeImages" 
-            src={require("./GrindSizesAssets/medium-coarse.png")} 
+            src="https://production.cdntg.xyz/assets/learning/grind-size-medium-coarse.png" 
             alt="medium-coarse grind size" 
           />
         </div>
@@ -121,7 +123,7 @@ export default function GrindSizesScreen() {
         <div className="AlignCenter">
           <img
             className="GrindSizeImages" 
-            src={require("./GrindSizesAssets/coarse.png")} 
+            src="https://production.cdntg.xyz/assets/learning/grind-size-coarse.png" 
             alt="coarse grind size" 
           />
         </div>
@@ -139,7 +141,7 @@ export default function GrindSizesScreen() {
         <div className="AlignCenter">
           <img
             className="GrindSizeImages" 
-            src={require("./GrindSizesAssets/very-coarse.png")} 
+            src="https://production.cdntg.xyz/assets/learning/grind-size-very-coarse.png" 
             alt="very coarse grind size" 
           />
         </div>

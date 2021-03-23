@@ -15,6 +15,7 @@ import ContactScreen from './screens/ContactScreen/ContactScreen';
 import PrivacyPolicyScreen from './screens/PrivacyPolicyScreen/PrivacyPolicyScreen'
 import InformationStandardsScreen from './screens/LearnScreen/LearnContentScreens/InformationStandardsScreen';
 import GrindSizesScreen from './screens/LearnScreen/LearnContentScreens/GrindSizesScreen';
+import TastingNotesScreen from './screens/LearnScreen/LearnContentScreens/TastingNotesScreen';
 
 import HomeButton from './components/HomeButton/HomeButton';
 import Footer from './components/Footer/Footer';
@@ -44,7 +45,7 @@ export default function App() {
           <title>Tasting Grounds | Discover, Rate, Share, & Brew Coffee Together</title>
           <meta
             name="description"
-            content="Log & rate your coffee brews, discover new coffees & roasters, and share with the community of fellow coffee lovers with the Tasting Grounds app for iOS and Android!"
+            content="Log & rate your coffee brews, discover new coffees & roasters, and share with the community of fellow specialty coffee lovers with the free Tasting Grounds app for iOS and Android!"
           />
         </Helmet>
 
@@ -66,7 +67,7 @@ export default function App() {
             </Route>
             {/* To remove after indexing */}
             <Route path="/about/coffee-grind-sizes">
-                <Redirect to="/learn/coffee-grind-sizes" />
+                <Redirect to="/learn/grind-sizes" />
             </Route>
             <Route exact path="/learn">
                 <LearnScreen />
@@ -74,8 +75,11 @@ export default function App() {
             <Route path="/learn/information-standards">
                 <InformationStandardsScreen/>
             </Route>
-            <Route path="/learn/coffee-grind-sizes">
+            <Route path="/learn/grind-sizes">
                 <GrindSizesScreen />
+            </Route>
+            <Route path="/learn/tasting-notes">
+                <TastingNotesScreen />
             </Route>
             <Route path="/contact">
               <ContactScreen />
