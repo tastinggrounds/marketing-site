@@ -57,18 +57,6 @@ export default function App() {
             <Route exact path="/about">
               <AboutScreen />
             </Route>
-            {/* To remove after indexing */}
-            <Route path="/about/our-story">
-                <Redirect to="/about" />
-            </Route>
-            {/* To remove after indexing */}
-            <Route path="/about/information-standards">
-                <Redirect to="/learn/information-standards" />
-            </Route>
-            {/* To remove after indexing */}
-            <Route path="/about/coffee-grind-sizes">
-                <Redirect to="/learn/grind-sizes" />
-            </Route>
             <Route exact path="/learn">
                 <LearnScreen />
             </Route>
