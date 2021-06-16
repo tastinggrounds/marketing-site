@@ -46,7 +46,7 @@ export default function App() {
           <title>Tasting Grounds | Discover, Rate, Share, & Brew Coffee Together</title>
           <meta
             name="description"
-            content="Log & rate your coffee brews, discover new coffees & roasters, and share with the community of fellow specialty coffee lovers with the free Tasting Grounds app for iOS and Android! Tasting Grounds is what some may say the Untappd or Vivino of coffee!"
+            content="Log & rate your coffee brews, discover new coffees & roasters, and share with the community of fellow specialty coffee lovers with the free Tasting Grounds app for iOS and Android! Tasting Grounds is what some may call the Untappd or Vivino of coffee!"
           />
         </Helmet>
 
