@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-import { Heading } from '../../../components';
+import { Heading, DownloadButtons } from '../../../components';
 
 import './LearnContentScreens.css';
 
@@ -40,6 +40,7 @@ export default function InformationStandardsScreen() {
           </ul>
         <p>Have you found something inaccurate in our catalog, are we missing an option in any field that you want to see, or are you a roaster that wants to enter your own information? Reach out to us at <a href="mailto:hey@tastinggrounds.com" target="_blank" rel="noopener noreferrer">hey@tastinggrounds.com</a>!</p>
       </div>
+      <DownloadButtons />
     </div>
   );
 }

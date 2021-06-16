@@ -32,14 +32,6 @@
   font-size: 25px;
 }
 
-.DownloadButtonContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50px;
-}
-
 @media (max-width : 800px) {
   .ScreenshotImage {
     width: 70vw;
@@ -62,13 +54,5 @@
   .HomeScreenContentTextContainer {
     width: 80vw;
     text-align: center;
-  }
-
-  .DownloadButtonContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 25px;
   }
 }

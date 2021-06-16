@@ -7,7 +7,7 @@ export default function AppStoreButton() {
     <a href="https://apps.apple.com/us/app/tasting-grounds/id1526958511">
       <img
         className="AppStoreButton"
-        src="assets/apple-store-download.svg"
+        src="../assets/apple-store-download.svg"
         alt="download on the apple store"
       />
     </a>

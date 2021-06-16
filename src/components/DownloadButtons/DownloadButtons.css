@@ -1,0 +1,16 @@
+.DownloadButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-block: 25px;
+}
+
+@media (max-width : 800px) {
+  .DownloadButtonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

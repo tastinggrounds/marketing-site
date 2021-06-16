@@ -16,6 +16,7 @@ import PrivacyPolicyScreen from './screens/PrivacyPolicyScreen/PrivacyPolicyScre
 import InformationStandardsScreen from './screens/LearnScreen/LearnContentScreens/InformationStandardsScreen';
 import GrindSizesScreen from './screens/LearnScreen/LearnContentScreens/GrindSizesScreen';
 import TastingNotesScreen from './screens/LearnScreen/LearnContentScreens/TastingNotesScreen';
+import FlavorProfilesScreen from './screens/LearnScreen/LearnContentScreens/FlavorProfileScreen';
 
 import HomeButton from './components/HomeButton/HomeButton';
 import Footer from './components/Footer/Footer';
@@ -45,7 +46,7 @@ export default function App() {
           <title>Tasting Grounds | Discover, Rate, Share, & Brew Coffee Together</title>
           <meta
             name="description"
-            content="Log & rate your coffee brews, discover new coffees & roasters, and share with the community of fellow specialty coffee lovers with the free Tasting Grounds app for iOS and Android!"
+            content="Log & rate your coffee brews, discover new coffees & roasters, and share with the community of fellow specialty coffee lovers with the free Tasting Grounds app for iOS and Android! Tasting Grounds is what some may call the Untappd or Vivino of coffee!"
           />
         </Helmet>
 
@@ -65,6 +66,9 @@ export default function App() {
             </Route>
             <Route path="/learn/grind-sizes">
                 <GrindSizesScreen />
+            </Route>
+            <Route path='/learn/flavor-profiles'>
+                <FlavorProfilesScreen />
             </Route>
             <Route path="/learn/tasting-notes">
                 <TastingNotesScreen />

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { Heading } from '../../../components';
+import { Heading, DownloadButtons } from '../../../components';
 
 import './LearnContentScreens.css';
 
@@ -61,6 +61,7 @@ export default function TastingNotesScreen() {
         <p>Aftertaste is the length of positive taste and aroma of the coffee that remains on your palate after you’ve swallowed the coffee. You should think about how the flavors of the coffee linger. Typically, a shorter, unpleasant linger should get a lower score while a longer, positive linger should get a higher score for aftertaste.</p>
         <br />
       </div>
+      <DownloadButtons />
     </div>
   );
 }
