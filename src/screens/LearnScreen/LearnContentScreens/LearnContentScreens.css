@@ -48,6 +48,12 @@
     padding: 25px;
 }
 
+.FlavorProfileImage {
+    width: 400px;
+    float: right;
+    padding: 25px;
+}
+
 @media (max-width : 1000px) {
     .LearnContentSceensBodyContainer {
         padding-left: 8vw;
@@ -87,6 +93,11 @@
         float: unset;
         padding: unset;
     }
+
+    .FlavorProfileImage {
+        float: unset;
+        padding: unset;
+    }
 }   
 
 @media (max-width : 600px) {
@@ -98,5 +109,11 @@
         float: unset;
         padding: unset;
         width: 300px;
+    }
+
+    .FlavorProfileImage {
+        width: 300px;
+        float: unset;
+        padding: unset;
     }
 }

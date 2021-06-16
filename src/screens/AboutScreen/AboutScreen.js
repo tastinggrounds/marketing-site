@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-import { Heading, IconImagesRow } from '../../components';
+import { Heading, IconImagesRow, DownloadButtons } from '../../components';
 
 import { Link } from 'react-router-dom';
 
@@ -52,6 +52,7 @@ export default function AboutScreen() {
           <em>Note, I originally wrote published this on <a href="https://citizenscoffee.co/brew-coffee-together-introducing-tasting-grounds/">our good friends blog</a>. Edits have been made for context. </em>🤙
           <p></p>
         </div>
+        <DownloadButtons />
       </div>
   );
 }

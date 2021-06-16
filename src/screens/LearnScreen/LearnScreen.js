@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-import { Heading, IconImagesRow } from '../../components';
+import { Heading, IconImagesRow, DownloadButtons } from '../../components';
 
 import { Link } from 'react-router-dom';
 
@@ -34,15 +34,20 @@ export default function LearnScreen() {
             <Heading size={Heading.SIZES.XSMALL}>Grind size is one of the important and easily-adjustable characteristics of your brew process. This is our guide to grind sizes and how to log them on Tasting Grounds. 
             </Heading>
           {/* eslint-disable-next-line */}
+          <Heading size={Heading.SIZES.SMALL}>🍇 <Link to="learn/flavor-profiles">Guide to Coffee Flavor Profiles</Link></Heading>
+            <Heading size={Heading.SIZES.XSMALL}>Some coffee flavor profiles can seem too good to be true. Coffee tastes like coffee, right? This is our guide on how to detect and describe coffee flavor profiles. 
+            </Heading>
+          {/* eslint-disable-next-line */}
           <Heading size={Heading.SIZES.SMALL}>📋  <Link to="learn/tasting-notes">Guide to Coffee Tasting Notes</Link></Heading>
             <Heading size={Heading.SIZES.XSMALL}>Coffee tasting notes can be confusing for both beginners and seasoned coffee tasters. This is our guide on how to taste coffee and score tasting notes on Tasting Grounds. 
             </Heading>
           {/* eslint-disable-next-line */}
-          <Heading size={Heading.SIZES.SMALL}>ℹ  <Link to="/about/information-standards">Guide to Coffee & Roaster Information</Link></Heading>
+          <Heading size={Heading.SIZES.SMALL}>ℹ  <Link to="/learn/information-standards">Guide to Coffee & Roaster Information</Link></Heading>
             <Heading size={Heading.SIZES.XSMALL}>The Tasting Grounds community thrives off of user generated content. The more coffees and roasters you add to our catalog, the more the rest of the community has to explore! We do our best to verify all user created content. Read more about our information review and verification standards.
             </Heading>
         </div>
       </div>
+      <DownloadButtons />
     </div>
   );
 }

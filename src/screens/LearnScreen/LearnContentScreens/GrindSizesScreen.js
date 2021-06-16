@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { Heading } from '../../../components';
+import { Heading, DownloadButtons } from '../../../components';
 
 import './LearnContentScreens.css';
 
@@ -156,6 +156,7 @@ export default function GrindSizesScreen() {
           <li>Baratza Encore: 30-40</li>
         </ul>
       </div>
+      <DownloadButtons />
     </div>
   );
 }
