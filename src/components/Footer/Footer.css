@@ -1,5 +1,5 @@
 .FooterContainer {
-  background-color: #203530;
+  background-color: #c9d6df;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -38,19 +38,23 @@
 }
 
 .FooterLogoImage {
-  width: 35px;
   padding-left: 10px;
   padding-right: 10px;
+  color: #203530;
+}
+
+.FooterLogoImage:hover {
+  color: #c1a57b;
 }
 
 .FooterCopyright {
-  color: #FFFFFF;
+  color: #203530;
   margin: 0;
   font-size: 14px;
 }
 
 .pp-link {
-  color: #ffffff;
+  color: #203530;
   text-decoration: none;
 }
 
