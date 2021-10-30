@@ -17,7 +17,7 @@ export default function HomeScreen() {
           />
         </picture>
         <div className="HomeScreenContentTextContainer">
-          <Heading size={Heading.SIZES.XXLARGE}>Brew Coffee <span class="HeadingCoffee">Together</span></Heading>
+          <Heading size={Heading.SIZES.XXLARGE}>Brew Coffee <span className="HeadingCoffee">Together</span></Heading>
           <Heading size={Heading.SIZES.XSMALL}>A coffee community where you can log your brews, rate & review your coffees, discover new roasters, and share with your friends.</Heading>
           <DownloadButtons />
         </div>
