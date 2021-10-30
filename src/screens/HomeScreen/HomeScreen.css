@@ -32,6 +32,10 @@
   font-size: 25px;
 }
 
+.HeadingCoffee {
+  color: #c1a57b;
+}
+
 @media (max-width : 800px) {
   .ScreenshotImage {
     width: 70vw;
