@@ -53,9 +53,14 @@
   font-size: 14px;
 }
 
-.pp-link {
+.LegalLink {
   color: #203530;
   text-decoration: none;
+  padding-inline: 5px;
+}
+
+.LegalLink:hover {
+  color: #c1a57b;
 }
 
 @media (max-width : 1000px) {

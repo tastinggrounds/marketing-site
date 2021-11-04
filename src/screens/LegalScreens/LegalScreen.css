@@ -1,0 +1,26 @@
+.LegalText {
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-bottom: 50px;
+}
+
+@media (max-width : 1500px) {
+  .LegalText {
+    padding-left: 25vw;
+    padding-right: 25vw;
+  }
+}
+
+@media (max-width : 1000px) {
+  .LegalText {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+}
+
+@media (max-width : 800px) {
+    .LegalText {
+      padding-left: 10vw;
+      padding-right: 10vw;
+    }
+}

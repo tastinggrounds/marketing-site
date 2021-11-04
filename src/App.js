@@ -12,7 +12,8 @@ import HomeScreen from './screens/HomeScreen/HomeScreen';
 import AboutScreen from './screens/AboutScreen/AboutScreen';
 import LearnScreen from './screens/LearnScreen/LearnScreen';
 import ContactScreen from './screens/ContactScreen/ContactScreen';
-import PrivacyPolicyScreen from './screens/PrivacyPolicyScreen/PrivacyPolicyScreen'
+import PrivacyPolicyScreen from './screens/LegalScreens/PrivacyPolicyScreen'
+import TermsScreen from './screens/LegalScreens/TermsScreen'
 import InformationStandardsScreen from './screens/LearnScreen/LearnContentScreens/InformationStandardsScreen';
 import GrindSizesScreen from './screens/LearnScreen/LearnContentScreens/GrindSizesScreen';
 import TastingNotesScreen from './screens/LearnScreen/LearnContentScreens/TastingNotesScreen';
@@ -78,6 +79,9 @@ export default function App() {
             </Route>
             <Route path="/privacy">
               <PrivacyPolicyScreen />
+            </Route>
+            <Route path="/terms">
+              <TermsScreen />
             </Route>
             <Redirect from="*" to="/" />
           </Switch>

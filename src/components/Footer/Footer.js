@@ -30,7 +30,9 @@ export default function Footer() {
         <p className="FooterCopyright">Copyright 2021 | Tasting Grounds, LLC</p>
       </div>
       <div className="FooterRightContainer">
-        <a className="pp-link" href="/privacy">Privacy Policy</a>
+        <a className="LegalLink" href="/terms">Terms</a>
+        |
+        <a className="LegalLink" href="/privacy">Privacy Policy</a>
       </div>
     </div>
   );
