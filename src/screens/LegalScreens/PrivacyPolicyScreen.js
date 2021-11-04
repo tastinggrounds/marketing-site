@@ -3,13 +3,13 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-import './PrivacyPolicyScreen.css';
+import './LegalScreen.css';
 
 export default function PrivacyPolicyScreen() {
   return (
-    <div className="PrivacyPolicyText">
+    <div className="LegalText">
       <Helmet>
-        <title>Tasting Grounds | Privacy Policy for the coffee app to discover, rate, and review coffees</title>
+        <title>Privacy Policy | Tasting Grounds</title>
         <meta 
           name="description" 
           content="Privacy policy for Tasting Grounds. The iOS and Android coffee app for logging & tracking your brew process, discovering new coffees & roasters, and sharing with your friends & the community." 
