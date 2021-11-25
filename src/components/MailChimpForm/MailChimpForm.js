@@ -19,7 +19,7 @@ export default function MailChimpForm() {
                 ]}
                 messages={
                     {
-                      sending: "Subscriping...",
+                      sending: "Subscribing...",
                       success: "Thanks for subscribing!",
                       error: "An unexpected internal error has occurred.",
                       empty: "Whoops - enter a valid e-mail address.",

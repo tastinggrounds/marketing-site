@@ -18,13 +18,13 @@ input {
     padding: 5px 12px;
     background-color: #c9d6df;
     width: 60%;
-  }
+}
 
-  input:focus {
+input:focus {
     border: 2px solid #c1a57b;
     outline: none;
-  }
+}
 
-  .msg-alert {  
-      font-size: 12px;
-  }
+.msg-alert {  
+    font-size: 12px;
+}
