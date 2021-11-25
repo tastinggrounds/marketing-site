@@ -1,0 +1,30 @@
+button {
+    margin-inline: 10px;
+    background-color: #c1a57b;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    border: 2px solid #c1a57b;
+    padding: 5px 10px;
+    color: white;
+}
+
+button:hover {
+    box-shadow: 0 1px 5px 0 #203530;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #c1a57b;
+    padding: 5px 12px;
+    background-color: #c9d6df;
+    width: 60%;
+}
+
+input:focus {
+    border: 2px solid #c1a57b;
+    outline: none;
+}
+
+.msg-alert {  
+    font-size: 12px;
+}

@@ -3,12 +3,14 @@ import React from 'react';
 import './Footer.css';
 import { IconContext } from 'react-icons';
 import { SiInstagram, SiTwitter, SiFacebook, SiReddit } from 'react-icons/si';
+import MailChimpForm from '../MailChimpForm/MailChimpForm';
 
 export default function Footer() {
   return (
     <div className="FooterContainer">
       
       <div className="FooterLeftContainer">
+        <MailChimpForm />
       </div>
       <div className="FooterCenterContainer">
         <div className="FooterLogoContainer">
