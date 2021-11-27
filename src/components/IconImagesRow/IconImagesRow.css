@@ -4,14 +4,14 @@
 }
 
 .IconsImagesContainer img {
-  width: 200px;
+  width: 150px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 @media (max-width : 800px) {
   .IconsImagesContainer img {
-    width: 150px;
+    width: 125px;
   }
 }
 
