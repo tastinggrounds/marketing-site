@@ -22,6 +22,7 @@ import FlavorProfilesScreen from './screens/LearnScreen/LearnContentScreens/Flav
 import HomeButton from './components/HomeButton/HomeButton';
 import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import DownloadRedirect from './components/DownloadRedirect/DownloadRedirect';
 
 import './App.css';
 
@@ -83,6 +84,7 @@ export default function App() {
             <Route path="/terms">
               <TermsScreen />
             </Route>
+            <Route path="/download" exact component={() => <DownloadRedirect />} />
             <Redirect from="*" to="/" />
           </Switch>
         </div>
