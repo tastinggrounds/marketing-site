@@ -12,8 +12,8 @@ import HomeScreen from './screens/HomeScreen/HomeScreen';
 import AboutScreen from './screens/AboutScreen/AboutScreen';
 import LearnScreen from './screens/LearnScreen/LearnScreen';
 import ContactScreen from './screens/ContactScreen/ContactScreen';
-import PrivacyPolicyScreen from './screens/LegalScreens/PrivacyPolicyScreen'
-import TermsScreen from './screens/LegalScreens/TermsScreen'
+import PrivacyPolicyScreen from './screens/LegalScreens/PrivacyPolicyScreen';
+import TermsScreen from './screens/LegalScreens/TermsScreen';
 import InformationStandardsScreen from './screens/LearnScreen/LearnContentScreens/InformationStandardsScreen';
 import GrindSizesScreen from './screens/LearnScreen/LearnContentScreens/GrindSizesScreen';
 import TastingNotesScreen from './screens/LearnScreen/LearnContentScreens/TastingNotesScreen';
@@ -22,6 +22,7 @@ import FlavorProfilesScreen from './screens/LearnScreen/LearnContentScreens/Flav
 import HomeButton from './components/HomeButton/HomeButton';
 import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import DownloadRedirect from './components/DownloadRedirect/DownloadRedirect';
 
 import './App.css';
 
@@ -60,19 +61,19 @@ export default function App() {
               <AboutScreen />
             </Route>
             <Route exact path="/learn">
-                <LearnScreen />
+              <LearnScreen />
             </Route>
             <Route path="/learn/information-standards">
-                <InformationStandardsScreen/>
+              <InformationStandardsScreen />
             </Route>
             <Route path="/learn/grind-sizes">
-                <GrindSizesScreen />
+              <GrindSizesScreen />
             </Route>
-            <Route path='/learn/flavor-profiles'>
-                <FlavorProfilesScreen />
+            <Route path="/learn/flavor-profiles">
+              <FlavorProfilesScreen />
             </Route>
             <Route path="/learn/tasting-notes">
-                <TastingNotesScreen />
+              <TastingNotesScreen />
             </Route>
             <Route path="/contact">
               <ContactScreen />
@@ -83,6 +84,7 @@ export default function App() {
             <Route path="/terms">
               <TermsScreen />
             </Route>
+            <Route path="/download" exact component={() => <DownloadRedirect />} />
             <Redirect from="*" to="/" />
           </Switch>
         </div>
