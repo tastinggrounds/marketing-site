@@ -8,16 +8,17 @@ import {
 } from 'react-router-dom';
 import Helmet from 'react-helmet';
 
-import HomeScreen from './screens/HomeScreen/HomeScreen';
 import AboutScreen from './screens/AboutScreen/AboutScreen';
-import LearnScreen from './screens/LearnScreen/LearnScreen';
 import ContactScreen from './screens/ContactScreen/ContactScreen';
-import PrivacyPolicyScreen from './screens/LegalScreens/PrivacyPolicyScreen';
-import TermsScreen from './screens/LegalScreens/TermsScreen';
-import InformationStandardsScreen from './screens/LearnScreen/LearnContentScreens/InformationStandardsScreen';
-import GrindSizesScreen from './screens/LearnScreen/LearnContentScreens/GrindSizesScreen';
-import TastingNotesScreen from './screens/LearnScreen/LearnContentScreens/TastingNotesScreen';
+import DataRemovalScreen from './screens/DataRemovalScreen/DataRemovalScreen';
 import FlavorProfilesScreen from './screens/LearnScreen/LearnContentScreens/FlavorProfileScreen';
+import GrindSizesScreen from './screens/LearnScreen/LearnContentScreens/GrindSizesScreen';
+import HomeScreen from './screens/HomeScreen/HomeScreen';
+import InformationStandardsScreen from './screens/LearnScreen/LearnContentScreens/InformationStandardsScreen';
+import LearnScreen from './screens/LearnScreen/LearnScreen';
+import PrivacyPolicyScreen from './screens/LegalScreens/PrivacyPolicyScreen';
+import TastingNotesScreen from './screens/LearnScreen/LearnContentScreens/TastingNotesScreen';
+import TermsScreen from './screens/LegalScreens/TermsScreen';
 
 import HomeButton from './components/HomeButton/HomeButton';
 import Footer from './components/Footer/Footer';
@@ -83,6 +84,9 @@ export default function App() {
             </Route>
             <Route path="/terms">
               <TermsScreen />
+            </Route>
+            <Route path="/data-removal">
+              <DataRemovalScreen />
             </Route>
             <Route path="/download" exact component={() => <DownloadRedirect />} />
             <Redirect from="*" to="/" />
