@@ -7,23 +7,23 @@
 }
 
 .heading-component-2 {
-  font-size: 46px;
-}
-
-.heading-component-3 {
   font-size: 42px;
 }
 
-.heading-component-4 {
+.heading-component-3 {
   font-size: 38px;
 }
 
-.heading-component-5 {
+.heading-component-4 {
   font-size: 34px;
 }
 
+.heading-component-5 {
+  font-size: 30px;
+}
+
 .heading-component-6 {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: unset;
   color: black;
 }
@@ -34,11 +34,11 @@
   }
   
   .heading-component-2 {
-    font-size: 32px;
+    font-size: 30px;
   }
   
   .heading-component-3 {
-    font-size: 28px;
+    font-size: 26px;
   }
   
   .heading-component-4 {
