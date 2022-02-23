@@ -17,7 +17,7 @@ export default function LearnScreen() {
           content="At Tasting Grounds, we are forever students of coffee. Learning more about coffee is a huge part of why we built the specialty coffee app for logging & tracking your brew process, discovering new coffees & roasters, and sharing with your friends & the community." 
         />
       </Helmet>
-      <Heading size={Heading.SIZES.XXLARGE}>Learn</Heading>
+      <Heading size={Heading.SIZES.XLARGE}>Learn</Heading>
       <div className="LearnScreenBodyContainer">
         <Heading size={Heading.SIZES.XSMALL}>
           At Tasting Grounds, we are students of coffee. Learning more about coffee growing, production, roasting, and brewing is a huge part of why we built this specialty coffee community.
