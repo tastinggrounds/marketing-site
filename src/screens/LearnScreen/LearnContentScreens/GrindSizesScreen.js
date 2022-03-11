@@ -28,6 +28,7 @@ export default function GrindSizesScreen() {
         <p>The primary impact grind size has on your brew is the surface area of the coffee grounds which the water will be in contact with. A finer grind has a larger total surface area and will extract the coffee faster while a coarser grind will have a smaller surface area and will extract slower.</p>
         <p>A secondary impact grind size has on your brew, particularly with percolation brewing methods (like a pour over or drip), is resistance as the water flows through the grounds. A finer grind will slow the flow rate of the water and increase the level of extraction while a coarser will have a faster flow rate and a less extraction.</p>
         <p>Striking the right balance of surface area and resistance will make a huge difference in your resulting cup. When it comes to tracking your grind size in Tasting Grounds, it is difficult to account for the different settings on the many different grinders out there in a way that is useful to you and your friends in the community. That’s why we’ve set up seven categories of grind size. Here are some general guidelines to follow for those categories:</p>
+        <p><em>Links to products in this article may contain affiliate links that help support Tasting Grounds.</em></p>
         <br />
         <div className="AlignCenter">
           <img
@@ -41,10 +42,10 @@ export default function GrindSizesScreen() {
         <p><b>THINK:</b> Turkish Coffee</p>
         <p><b>Approximate Settings</b></p>
         <ul>
-          <li>Comandante C40: 5-10 clicks</li>
-          <li>Timemore Chestnut: 0-6 (not recommended)</li>
-          <li>Fellow Ode: probably should try a different grinder</li>
-          <li>Baratza Encore: 1-5</li>
+          <li><a href="https://prima-coffee.com/equipment/comandante/c40-mk4-coman-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Comandante C40</a>: 5-10 clicks</li>
+          <li><a href="https://amzn.to/3KBDh8i" target="_blank" rel="nofollow">Timemore Chestnut</a>: 0-6 (not recommended)</li>
+          <li><a href="https://fellowproducts.com/products/ode-brew-grinder?rfsn=5706149.a8bdbd&utm_source=refersion&utm_medium=affiliate&utm_campaign=5706149.a8bdbd" target="_blank" rel="nofollow">Fellow Ode</a>: probably should try a different grinder</li>
+          <li><a href="https://prima-coffee.com/equipment/baratza/485?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Baratza Encore</a>: 1-5</li>
         </ul>
         <br />
         <div className="AlignCenter">
@@ -59,10 +60,10 @@ export default function GrindSizesScreen() {
         <p><b>THINK:</b> Espresso or Moka Pot</p>
         <p><b>Approximate Settings</b></p>
         <ul>
-          <li>Comandante C40: 11-15</li>
-          <li>Timemore Chestnut: 7-10</li>
-          <li>Fellow Ode: 1-2</li>
-          <li>Baratza Encore: 5-10</li>
+          <li><a href="https://prima-coffee.com/equipment/comandante/c40-mk4-coman-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Comandante C40</a>: 11-15</li>
+          <li><a href="https://amzn.to/3KBDh8i" target="_blank" rel="nofollow">Timemore Chestnut</a>: 7-10</li>
+          <li><a href="https://fellowproducts.com/products/ode-brew-grinder?rfsn=5706149.a8bdbd&utm_source=refersion&utm_medium=affiliate&utm_campaign=5706149.a8bdbd" target="_blank" rel="nofollow">Fellow Ode</a>: 1-2</li>
+          <li><a href="https://prima-coffee.com/equipment/baratza/485?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Baratza Encore</a>: 5-10</li>
         </ul>
         <br />
         <div className="AlignCenter">
@@ -78,10 +79,10 @@ export default function GrindSizesScreen() {
         <p><b>THINK:</b> Single serving pour over brewers</p>
         <p><b>Approximate Settings</b></p>
         <ul>
-          <li>Comandante C40: 16-20</li>
-          <li>Timemore Chestnut: 11-15</li>
-          <li>Fellow Ode: 2-3</li>
-          <li>Baratza Encore: 10-15</li>
+          <li><a href="https://prima-coffee.com/equipment/comandante/c40-mk4-coman-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Comandante C40</a>: 16-20</li>
+          <li><a href="https://amzn.to/3KBDh8i" target="_blank" rel="nofollow">Timemore Chestnut</a>: 11-15</li>
+          <li><a href="https://fellowproducts.com/products/ode-brew-grinder?rfsn=5706149.a8bdbd&utm_source=refersion&utm_medium=affiliate&utm_campaign=5706149.a8bdbd" target="_blank" rel="nofollow">Fellow Ode</a>: 2-3</li>
+          <li><a href="https://prima-coffee.com/equipment/baratza/485?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Baratza Encore</a>: 10-15</li>
         </ul>
         <br />
         <div className="AlignCenter">
@@ -96,10 +97,10 @@ export default function GrindSizesScreen() {
         <p><b>THINK:</b> Aeropress, Siphon, Flat-bottom (Kalita Wave) or Cone-shaped (Hario V60) brewers</p>
         <p><b>Approximate Settings</b></p>
         <ul>
-          <li>Comandante C40: 21-25</li>
-          <li>Timemore Chestnut: 16-20</li>
-          <li>Fellow Ode: 3-5</li>
-          <li>Baratza Encore: 10-20</li>
+          <li><a href="https://prima-coffee.com/equipment/comandante/c40-mk4-coman-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Comandante C40</a>: 21-25</li>
+          <li><a href="https://amzn.to/3KBDh8i" target="_blank" rel="nofollow">Timemore Chestnut</a>: 16-20</li>
+          <li><a href="https://fellowproducts.com/products/ode-brew-grinder?rfsn=5706149.a8bdbd&utm_source=refersion&utm_medium=affiliate&utm_campaign=5706149.a8bdbd" target="_blank" rel="nofollow">Fellow Ode</a>: 3-5</li>
+          <li><a href="https://prima-coffee.com/equipment/baratza/485?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Baratza Encore</a>: 10-20</li>
         </ul>
         <br />
         <div className="AlignCenter">
@@ -114,10 +115,10 @@ export default function GrindSizesScreen() {
         <p><b>THINK:</b> Chemex or Clever Dripper</p>
         <p><b>Approximate Settings</b></p>
         <ul>
-          <li>Comandante C40: 26-30</li>
-          <li>Timemore Chestnut: 21-23</li>
-          <li>Fellow Ode: 5-6</li>
-          <li>Baratza Encore: 20-25</li>
+          <li><a href="https://prima-coffee.com/equipment/comandante/c40-mk4-coman-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Comandante C40</a>: 26-30</li>
+          <li><a href="https://amzn.to/3KBDh8i" target="_blank" rel="nofollow">Timemore Chestnut</a>: 21-23</li>
+          <li><a href="https://fellowproducts.com/products/ode-brew-grinder?rfsn=5706149.a8bdbd&utm_source=refersion&utm_medium=affiliate&utm_campaign=5706149.a8bdbd" target="_blank" rel="nofollow">Fellow Ode</a>: 5-6</li>
+          <li><a href="https://prima-coffee.com/equipment/baratza/485?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Baratza Encore</a>: 20-25</li>
         </ul>
         <br />
         <div className="AlignCenter">
@@ -132,10 +133,10 @@ export default function GrindSizesScreen() {
         <p><b>THINK:</b> French Press</p>
         <p><b>Approximate Settings</b></p>
         <ul>
-          <li>Comandante C40: 31-35</li>
-          <li>Timemore Chestnut: 24-28</li>
-          <li>Fellow Ode: 6-9</li>
-          <li>Baratza Encore: 25-30</li>
+          <li><a href="https://prima-coffee.com/equipment/comandante/c40-mk4-coman-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Comandante C40</a>: 31-35</li>
+          <li><a href="https://amzn.to/3KBDh8i" target="_blank" rel="nofollow">Timemore Chestnut</a>: 24-28</li>
+          <li><a href="https://fellowproducts.com/products/ode-brew-grinder?rfsn=5706149.a8bdbd&utm_source=refersion&utm_medium=affiliate&utm_campaign=5706149.a8bdbd" target="_blank" rel="nofollow">Fellow Ode</a>: 6-9</li>
+          <li><a href="https://prima-coffee.com/equipment/baratza/485?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Baratza Encore</a>: 25-30</li>
         </ul>
         <br />
         <div className="AlignCenter">
@@ -150,11 +151,12 @@ export default function GrindSizesScreen() {
         <p><b>THINK:</b> Cold Brew</p>
         <p><b>Approximate Settings</b></p>
         <ul>
-          <li>Comandante C40: 36+</li>
-          <li>Timemore Chestnut: 29+</li>
-          <li>Fellow Ode: 9-11</li>
-          <li>Baratza Encore: 30-40</li>
+          <li><a href="https://prima-coffee.com/equipment/comandante/c40-mk4-coman-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Comandante C40</a>: 36+</li>
+          <li><a href="https://amzn.to/3KBDh8i" target="_blank" rel="nofollow">Timemore Chestnut</a>: 29+</li>
+          <li><a href="https://fellowproducts.com/products/ode-brew-grinder?rfsn=5706149.a8bdbd&utm_source=refersion&utm_medium=affiliate&utm_campaign=5706149.a8bdbd" target="_blank" rel="nofollow">Fellow Ode</a>: 9-11</li>
+          <li><a href="https://prima-coffee.com/equipment/baratza/485?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Baratza Encore</a>: 30-40</li>
         </ul>
+        <br />
       </div>
       <DownloadButtons />
     </div>
