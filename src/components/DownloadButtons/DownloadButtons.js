@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { AppleStoreButton, GooglePlayStoreButton } from '../../components';
+import AppleStoreButton from './AppleStoreButton/AppleStoreButton';
+import GooglePlayStoreButton from './GooglePlayStoreButton/GooglePlayStoreButton';
 import './DownloadButtons.css';
 
 export default function DownloadButtons() {

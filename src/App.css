@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 10px;
+  padding: 5px 15px;
   background-color: #ffffff;
   height: 75px;
   position: sticky;
@@ -14,7 +14,7 @@
   color: #203530;
   text-decoration: none;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -44,7 +44,7 @@
 
 @media (max-width: 600px) {
   .right-link {
-    font-size: 16px;
+    font-size: 14px;
     margin-inline: 5px;
   }
 }

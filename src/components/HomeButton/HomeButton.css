@@ -6,19 +6,19 @@
 }
 
 .HomeIconImage {
-  width: 70px;
+  width: 60px;
 }
 
 .HomeTextImage {
-  width: 200px;
+  width: 170px;
 }
 
 @media ( max-width : 600px) {
-  .HomeTextImage {
-    width: 120px;
+  .HomeIconImage {
+    width: 40px;
   }
 
-  .HomeIconImage {
-    width: 50px;
+  .HomeTextImage {
+    width: 120px;
   }
 }

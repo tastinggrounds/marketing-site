@@ -10,9 +10,9 @@ export default function PrivacyPolicyScreen() {
     <div className="LegalText">
       <Helmet>
         <title>Privacy Policy | Tasting Grounds</title>
-        <meta 
-          name="description" 
-          content="Privacy policy for Tasting Grounds. The iOS and Android coffee app for logging & tracking your brew process, discovering new coffees & roasters, and sharing with your friends & the community." 
+        <meta
+          name="description"
+          content="Privacy policy for Tasting Grounds. The iOS and Android coffee app for logging & tracking your brew process, discovering new coffees & roasters, and sharing with your friends & the community."
         />
       </Helmet>
       <h1>Privacy Policy</h1>
@@ -77,7 +77,7 @@ export default function PrivacyPolicyScreen() {
       <p>We may share aggregate or de-identified information without restriction. This information may include, without limitation, the number of users who have registered for the Service. Such aggregate information does not identify you individually.</p>
 
       <h2>Security</h2>
-      <p>We use reasonable measures to protect personal information under our control. We also require our third-party service providers to use reasonable measures to protect the confidentiality and security of the personal information they maintain for us. Unfortunately, no data transmission or data storage system can be guaranteed to be 100% secure. If you have reason to believe that your interaction with us is no longer secure, please immediately notify us of the problem by contacting us in accordance with the "Contact Us” section below.</p>
+      <p>We use reasonable measures to protect personal information under our control. We also require our third-party service providers to use reasonable measures to protect the confidentiality and security of the personal information they maintain for us. Unfortunately, no data transmission or data storage system can be guaranteed to be 100% secure. If you have reason to believe that your interaction with us is no longer secure, please immediately notify us of the problem by contacting us in accordance with the &quot;Contact Us&quot; section below.</p>
 
       <h2>Your Choices</h2>
 

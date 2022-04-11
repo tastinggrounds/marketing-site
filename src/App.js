@@ -1,10 +1,10 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
   Link,
-  Redirect,
+  Navigate,
+  Routes,
 } from 'react-router-dom';
 import Helmet from 'react-helmet';
 
@@ -33,12 +33,12 @@ export default function App() {
       <ScrollToTop />
       <div>
         <div className="AppHeaderContainer">
-          <div className="right-grouping">
+          <div className="left-grouping">
             <Link className="home-link" to="/">
               <HomeButton />
             </Link>
           </div>
-          <div className="left-grouping">
+          <div className="right-grouping">
             <Link className="right-link" to="/about">About</Link>
             <Link className="right-link" to="/learn">Learn</Link>
             <Link className="right-link" to="/contact">Contact</Link>
@@ -54,43 +54,24 @@ export default function App() {
         </Helmet>
 
         <div className="AppContentContainer">
-          <Switch>
-            <Route exact path="/">
-              <HomeScreen />
-            </Route>
-            <Route exact path="/about">
-              <AboutScreen />
-            </Route>
-            <Route exact path="/learn">
-              <LearnScreen />
-            </Route>
-            <Route path="/learn/information-standards">
-              <InformationStandardsScreen />
-            </Route>
-            <Route path="/learn/grind-sizes">
-              <GrindSizesScreen />
-            </Route>
-            <Route path="/learn/flavor-profiles">
-              <FlavorProfilesScreen />
-            </Route>
-            <Route path="/learn/tasting-notes">
-              <TastingNotesScreen />
-            </Route>
-            <Route path="/contact">
-              <ContactScreen />
-            </Route>
-            <Route path="/privacy">
-              <PrivacyPolicyScreen />
-            </Route>
-            <Route path="/terms">
-              <TermsScreen />
-            </Route>
-            <Route path="/data-removal">
-              <DataRemovalScreen />
-            </Route>
-            <Route path="/download" exact component={() => <DownloadRedirect />} />
-            <Redirect from="*" to="/" />
-          </Switch>
+          <Routes>
+            <Route path="/" element={<HomeScreen />} />
+            <Route path="/about" element={<AboutScreen />} />
+            <Route path="/learn" element={<LearnScreen />} />
+            <Route path="/learn/information-standards" element={<InformationStandardsScreen />} />
+            <Route path="/learn/grind-sizes" element={<GrindSizesScreen />} />
+            <Route path="/learn/flavor-profiles" element={<FlavorProfilesScreen />} />
+            <Route path="/learn/tasting-notes" element={<TastingNotesScreen />} />
+            <Route path="/contact" element={<ContactScreen />} />
+            <Route path="/privacy" element={<PrivacyPolicyScreen />} />
+            <Route path="/terms" element={<TermsScreen />} />
+            <Route path="/data-removal" element={<DataRemovalScreen />} />
+            <Route path="/download" element={<DownloadRedirect />} />
+            <Route
+              path="*"
+              element={<Navigate to="/" replace />}
+            />
+          </Routes>
         </div>
       </div>
       <Footer />
