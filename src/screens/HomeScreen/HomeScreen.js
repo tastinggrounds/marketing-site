@@ -18,7 +18,8 @@ export default function HomeScreen() {
         </picture>
         <div className="HomeScreenContentTextContainer">
           <Heading size={Heading.SIZES.XXLARGE}>
-            Brew Coffee&nbsp;
+            Brew Coffee
+            {' '}
             <span className="HeadingCoffee">Together</span>
           </Heading>
           <Heading size={Heading.SIZES.XSMALL}>
