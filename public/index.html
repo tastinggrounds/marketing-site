@@ -45,6 +45,12 @@
     -->
   </head>
   <body style="background-color: #203530; color:#203530 ">
+    <!-- Needed for Netlify form https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/ -->
+    <form name='contactForm' netlify hidden>
+      <input type='text' name='name' />
+      <input type='email' name='email' />
+      <textarea name='message'></textarea>
+    </form>
     <div id="root">
       <!-- Google is not always picking up the meta title and descriptions added to App.js with Helmet 
       I added this text here so that it will hopefully be picked up rather than the noscript tag in Google search which seems to be the case now -->

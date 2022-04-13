@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 import { Heading } from '../../components';
+import ContactForm from '../../components/ContactForm/ContactForm';
 
 import './ContactScreen.css';
 
@@ -30,8 +31,9 @@ export default function ContactScreen() {
           !
         </Heading>
       </div>
+      <ContactForm />
       {/* eslint-disable-next-line */}
-      <iframe className="ContactForm" src="https://docs.google.com/forms/d/e/1FAIpQLSf6rqxHMBBIy-D3nlXvGinxEj4TA5fiWlPkv0Wg1QfiUTYVzQ/viewform?embedded=true">Loading…</iframe>
+      {/* <iframe className="ContactForm" src="https://docs.google.com/forms/d/e/1FAIpQLSf6rqxHMBBIy-D3nlXvGinxEj4TA5fiWlPkv0Wg1QfiUTYVzQ/viewform?embedded=true">Loading…</iframe> */}
     </div>
   );
 }
