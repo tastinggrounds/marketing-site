@@ -20,6 +20,7 @@ export default function ContactForm() {
           Thanks for your message!
         </p>
       )}
+      <p>{actionURL}</p>
       <form
         method="POST"
         name="contactForm"
