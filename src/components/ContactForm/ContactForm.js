@@ -3,8 +3,7 @@ import React, { useEffect, useState } from 'react';
 import './ContactForm.css';
 
 // eslint-disable-next-line prefer-template
-// const actionUrl = window.location.pathname + '?success=true';
-const actionUrl = '/about';
+const actionUrl = window.location.pathname + '?success=true';
 
 export default function ContactForm() {
   const [success, setSuccess] = useState(false);
