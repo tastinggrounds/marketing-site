@@ -24,8 +24,8 @@ export default function ContactForm() {
         method="POST"
         name="contactForm"
         className="contactForm"
-        data-netlify="true"
         action={actionURL}
+        data-netlify="true"
       >
         <input
           type="hidden"
