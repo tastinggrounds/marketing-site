@@ -3,7 +3,8 @@ import React, { useEffect, useState } from 'react';
 import './ContactForm.css';
 
 // eslint-disable-next-line prefer-template
-const actionURL = window.location.pathname + '?success=true';
+// const actionUrl = window.location.pathname + '?success=true';
+const actionUrl = '/about';
 
 export default function ContactForm() {
   const [success, setSuccess] = useState(false);
@@ -20,12 +21,12 @@ export default function ContactForm() {
           Thanks for your message!
         </p>
       )}
-      <p>{actionURL}</p>
+      <p>{actionUrl}</p>
       <form
         method="POST"
         name="contactForm"
         className="contactForm"
-        action={actionURL}
+        action={actionUrl}
         data-netlify="true"
       >
         <input
