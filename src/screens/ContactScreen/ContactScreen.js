@@ -20,7 +20,8 @@ export default function ContactScreen() {
       <div className="ContactScreenTextContainer">
         <Heading size={Heading.SIZES.XSMALL}>
           Have some feedback or need help with something? Drop us a question, feature request,
-          bug report, or any other note in the form below or send us an email at&nbsp;
+          bug report, or any other note in the form below!
+          You can also send us an email at&nbsp;
           <a
             href="mailto:hey@tastinggrounds.com"
             target="_blank"
@@ -28,7 +29,7 @@ export default function ContactScreen() {
           >
             hey@tastinggrounds.com
           </a>
-          !
+          .
         </Heading>
       </div>
       <ContactForm />

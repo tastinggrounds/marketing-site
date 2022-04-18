@@ -39,6 +39,7 @@
   .AppContentContainer {
     background-attachment: unset;
     background-size: cover;
+    min-height: unset;
   }
 }
 
