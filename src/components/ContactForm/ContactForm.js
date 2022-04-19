@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 
 import './ContactForm.css';
 
-// eslint-disable-next-line prefer-template
-const actionUrl = window.location.pathname + '?success=true';
-
 export default function ContactForm() {
+  const location = useLocation().pathname;
+  const actionUrl = `${location}?success=true`;
+
   const [success, setSuccess] = useState(false);
   useEffect(() => {
     if (window.location.search.includes('success=true')) {
@@ -20,7 +21,6 @@ export default function ContactForm() {
           Thanks for your message!
         </p>
       )}
-      <p>{actionUrl}</p>
       <form
         method="POST"
         name="contactForm"
