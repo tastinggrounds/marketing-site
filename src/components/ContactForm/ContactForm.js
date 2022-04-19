@@ -16,7 +16,7 @@ export default function ContactForm() {
 
   function onClick() {
     setSuccess(false);
-    window.history.replaceState(null, '', '/contact');
+    window.history.replaceState(null, null, '/contact');
   }
 
   return (
