@@ -47,13 +47,13 @@
 </head>
 
 <body style="background-color: #203530; color:#203530 ">
-  <!-- A little help for the Netlify post-processing bots https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/ -->
-  <form name='contactForm' data-netlify="true" netlify-honeypot="bot-field" action="/contact?success=true" hidden>
-    <input type='email' name='email' />
-    <input type='text' name='name' />
-    <textarea name='message'></textarea>
-  </form>
   <div id="root">
+    <!-- A little help for the Netlify post-processing bots https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/ -->
+    <form name="contactForm" data-netlify="true" netlify-honeypot="bot-field" action="/contact?success=true" hidden>
+      <input type="email" name="email" />
+      <input type="text" name="name" />
+      <textarea name="message"></textarea>
+    </form>
     <!-- Google is not always picking up the meta title and descriptions added to App.js with Helmet 
       I added this text here so that it will hopefully be picked up rather than the noscript tag in Google search which seems to be the case now -->
     <h1>Log & rate your coffee brews, discover new coffees & roasters, and share with the community of fellow coffee
