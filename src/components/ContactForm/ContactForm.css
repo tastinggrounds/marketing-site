@@ -43,10 +43,18 @@
   padding: 10px;
 }
 
+.successMessage {
+  margin: 20vh 25vw;
+}
+
 @media (max-width : 800px) {
 
     .contactForm {
       max-width: 80vw;
+    }
+
+    .successMessage {
+      margin: 15vh 20vw;
     }
 }
   
