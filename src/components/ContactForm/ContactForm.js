@@ -22,11 +22,11 @@ export default function ContactForm() {
         </p>
       )}
       <form
-        method="POST"
         name="contactForm"
-        className="contactForm"
         action={actionUrl}
+        method="POST"
         data-netlify="true"
+        className="contactForm"
       >
         <input
           type="hidden"

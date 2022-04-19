@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180751488-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
 
-      gtag('config', 'UA-180751488-1');
-    </script>
-    <!-- Frill Widget (https://frill.co) -->
-    <script>
-      window.Frill_Config = window.Frill_Config || [];
-      window.Frill_Config.push({ key: '55f34584-ffc1-4886-a6ab-d0259210b38d' });
-    </script>
-    <script async src="https://widget.frill.co/v2/widget.js"></script>
-    <!-- End Frill Widget -->
-    <meta charset="utf-8"/>
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="theme-color" content="#000000"/>
-    <title>Tasting Grounds | Discover, Rate, Share, & Brew Coffee Together</title>
-    <meta property="og:title" content="Discover, Rate, Share, & Brew Coffee Together" />
-    <meta property="og:image" content="https://production.cdntg.xyz/assets/logos/tg-logo-og-meta.png" />
-    <meta property="og:url" content="%PUBLIC_URL%/" />
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/assets/app-icon.png"/>
-    <!--
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180751488-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-180751488-1');
+  </script>
+  <!-- Frill Widget (https://frill.co) -->
+  <script>
+    window.Frill_Config = window.Frill_Config || [];
+    window.Frill_Config.push({ key: '55f34584-ffc1-4886-a6ab-d0259210b38d' });
+  </script>
+  <script async src="https://widget.frill.co/v2/widget.js"></script>
+  <!-- End Frill Widget -->
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Tasting Grounds | Discover, Rate, Share, & Brew Coffee Together</title>
+  <meta property="og:title" content="Discover, Rate, Share, & Brew Coffee Together" />
+  <meta property="og:image" content="https://production.cdntg.xyz/assets/logos/tg-logo-og-meta.png" />
+  <meta property="og:url" content="%PUBLIC_URL%/" />
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/assets/app-icon.png" />
+  <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
-    <!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -43,21 +44,23 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-  </head>
-  <body style="background-color: #203530; color:#203530 ">
-    <!-- Needed for Netlify form https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/ -->
-    <form name='contactForm' data-netlify="true" method="POST" action="/contact?success=true" hidden>
-      <input type='text' name='name' />
-      <input type='email' name='email' />
-      <textarea name='message'></textarea>
-    </form>
-    <div id="root">
-      <!-- Google is not always picking up the meta title and descriptions added to App.js with Helmet 
+</head>
+
+<body style="background-color: #203530; color:#203530 ">
+  <!-- Needed for Netlify form https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/ -->
+  <form name='contactForm' data-netlify="true" method="POST" action="/contact?success=true" hidden>
+    <input type='email' name='email' />
+    <input type='text' name='name' />
+    <textarea name='message'></textarea>
+  </form>
+  <div id="root">
+    <!-- Google is not always picking up the meta title and descriptions added to App.js with Helmet 
       I added this text here so that it will hopefully be picked up rather than the noscript tag in Google search which seems to be the case now -->
-      <h1>Log & rate your coffee brews, discover new coffees & roasters, and share with the community of fellow coffee lovers with the Tasting Grounds app for iOS and Android!</h1>
-    </div>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <!--
+    <h1>Log & rate your coffee brews, discover new coffees & roasters, and share with the community of fellow coffee
+      lovers with the Tasting Grounds app for iOS and Android!</h1>
+  </div>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -67,5 +70,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+</body>
+
 </html>
