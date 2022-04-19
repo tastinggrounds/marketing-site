@@ -26,6 +26,7 @@ export default function ContactForm() {
         action={actionUrl}
         method="POST"
         data-netlify="true"
+        netlify-honeypot="bot-field"
         className="contactForm"
       >
         <input
