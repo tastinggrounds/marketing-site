@@ -19,6 +19,39 @@ export default function ContactForm() {
     window.history.replaceState(null, null, '/contact');
   }
 
+  const [formData, setFormData] = useState({
+    name: null,
+    email: null,
+    message: null,
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  // eslint-disable-next-line
+  const encode = (data) => {
+    return Object.keys(formData)
+      // eslint-disable-next-line
+      .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(formData[key]))
+      .join('&');
+  };
+
+  function submitForm(e) {
+    e.preventDefault();
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({ 'form-name': 'contact', ...formData }),
+    })
+      .then(() => window.history.replaceState(null, null, '/contact#success=true'))
+      .catch((error) => alert(error));
+  }
+
   return (
     <div>
       {success && (
@@ -40,6 +73,7 @@ export default function ContactForm() {
           data-netlify="true"
           netlify-honeypot="bot-field"
           className="contactForm"
+          onSubmit={submitForm}
         >
           <input
             type="hidden"
@@ -50,15 +84,21 @@ export default function ContactForm() {
             type="email"
             name="email"
             placeholder="Your email"
+            value={formData.email}
+            onChange={handleChange}
           />
           <input
             type="text"
             name="name"
             placeholder="Your name"
+            value={formData.name}
+            onChange={handleChange}
           />
           <textarea
             name="message"
             placeholder="Messaage"
+            value={formData.message}
+            onChange={handleChange}
           />
           <button type="submit">Submit</button>
         </form>
