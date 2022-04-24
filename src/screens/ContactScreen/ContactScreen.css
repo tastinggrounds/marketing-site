@@ -1,7 +1,7 @@
 .ContactScreenContainer {
     justify-content: center;
     align-items: center;
-    text-align: center; 
+    text-align: center;
 }
 
 .ContactScreenTextContainer {
@@ -9,17 +9,7 @@
     padding-right: 25vw;
 }
 
-.ContactForm {
-    width: 650px; 
-    height: 900px;
-    border: 0;
-}
-
 @media (max-width : 800px) {
-    .ContactForm {
-      width: 90vw;
-      height: 950px;
-    }
 
     .ContactScreenTextContainer {
         padding-left: 10vw;

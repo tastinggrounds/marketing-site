@@ -13,7 +13,7 @@ button:hover {
     cursor: pointer;
 }
 
-input {
+.SubscribeForm input {
     border: none;
     border-bottom: 2px solid #c1a57b;
     padding: 5px 12px;
@@ -21,7 +21,7 @@ input {
     width: 60%;
 }
 
-input:focus {
+.SubscribeForm input:focus {
     border: 2px solid #c1a57b;
     outline: none;
 }

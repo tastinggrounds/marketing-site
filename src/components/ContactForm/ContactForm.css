@@ -1,0 +1,60 @@
+.contactForm {
+    padding: 10px;
+    max-width: 550px;
+    justify-content: center;
+    margin: 25px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+.contactForm input {
+  padding: 10px;
+  border: 2px solid lightgray;
+}
+
+.contactForm input:hover {
+  border: 2px solid #c1a57b;
+}
+
+.contactForm input:focus {
+  border: 2px solid #c1a57b;
+  outline: none;
+}
+
+.contactForm textarea {
+    height: 200px;
+    padding: 10px;
+    border: 2px solid lightgray;
+    font-family: inherit;
+}
+
+.contactForm textarea:hover {
+  border: 2px solid #c1a57b;
+}
+
+.contactForm textarea:focus {
+  border: 2px solid #c1a57b;
+  outline: none;
+}
+
+.contactForm button {
+  padding: 10px;
+}
+
+.successMessage {
+  margin: 20vh 25vw;
+}
+
+@media (max-width : 800px) {
+
+    .contactForm {
+      max-width: 80vw;
+    }
+
+    .successMessage {
+      margin: 15vh 20vw;
+    }
+}
+  
