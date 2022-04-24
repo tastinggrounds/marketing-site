@@ -1,24 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import React, { useState } from 'react';
 
 import './ContactForm.css';
 
 export default function ContactForm() {
-  const location = useLocation().pathname;
-  const actionUrl = `${location}?success=true`;
-
   const [success, setSuccess] = useState(false);
-  useEffect(() => {
-    if (window.location.search.includes('success=true')) {
-      setSuccess(true);
-    }
-  }, []);
-
-  function onClick() {
-    setSuccess(false);
-    window.history.replaceState(null, null, '/contact');
-  }
-
   const [formData, setFormData] = useState({
     name: null,
     email: null,
@@ -48,9 +33,14 @@ export default function ContactForm() {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({ 'form-name': 'contactForm', ...formData }),
     })
-      .then(() => window.history.replaceState(null, null, '/contact#success=true'))
+      .then(() => setSuccess(true))
+      .then(() => setFormData({name: null, email: null,  message: null}))
       // eslint-disable-next-line
       .catch(error => console.log(error));
+  }
+
+  function handleBack() {
+    setSuccess(false);
   }
 
   return (
@@ -63,13 +53,12 @@ export default function ContactForm() {
           Don&apos;t forget to checkout our feature roadmap or to submit your feature ideas on our
           <a href="https://ideas.tastinggrounds.com"> ideas board!</a>
           <p />
-          <button type="submit" onClick={onClick}>Back</button>
+          <button type="submit" onClick={handleBack}>Back</button>
         </div>
       )}
       {!success && (
         <form
           name="contactForm"
-          action={actionUrl}
           method="POST"
           data-netlify="true"
           netlify-honeypot="bot-field"
