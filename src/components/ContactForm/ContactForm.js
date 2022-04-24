@@ -17,33 +17,34 @@ export default function ContactForm() {
 
   function encode(data) {
     return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
+      // eslint-disable-next-line
+      .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+      .join('&');
   }
-  
-  const [name, setName] = useState("")
+
+  const [name, setName] = useState('');
 
   const handleChange = (e) => {
-    setName({ ...name, [e.target.name]: e.target.value })
-  }
+    setName({ ...name, [e.target.name]: e.target.value });
+  };
 
   const handleSubmit = (event) => {
     // Prevent the default onSubmit behavior
     event.preventDefault();
     // POST the encoded form with the content-type header that's required for a text submission
     // Note that the header will be different for POSTing a file
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ 
-        "form-name": event.target.getAttribute("name"), 
-        ...name
-      })
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({
+        'form-name': event.target.getAttribute('name'),
+        ...name,
+      }),
     })
       // On success, redirect to the custom success page using Gatsby's `navigate` helper function
-      .then(() => navigate("/contact#success=true"))
+      .then(() => navigate('/contact#success=true'))
       // On error, show the error in an alert
-      .catch(error => alert(error));
+      .catch((error) => alert(error));
   };
 
   function onClick() {
