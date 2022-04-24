@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 import './ContactForm.css';
 
 export default function ContactForm() {
   const location = useLocation().pathname;
-  const navigate = useNavigate();
   const actionUrl = `${location}?success=true`;
 
   const [success, setSuccess] = useState(false);
@@ -15,42 +14,29 @@ export default function ContactForm() {
     }
   }, []);
 
-  function encode(data) {
-    return Object.keys(data)
-      // eslint-disable-next-line
-      .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-      .join('&');
-  }
-
-  const [name, setName] = useState('');
-
-  const handleChange = (e) => {
-    setName({ ...name, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (event) => {
-    // Prevent the default onSubmit behavior
-    event.preventDefault();
-    // POST the encoded form with the content-type header that's required for a text submission
-    // Note that the header will be different for POSTing a file
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({
-        'form-name': event.target.getAttribute('name'),
-        ...name,
-      }),
-    })
-      // On success, redirect to the custom success page using Gatsby's `navigate` helper function
-      .then(() => navigate('/contact#success=true'))
-      // On error, show the error in an alert
-      .catch((error) => alert(error));
-  };
-
   function onClick() {
     setSuccess(false);
     window.history.replaceState(null, null, '/contact');
   }
+
+  // eslint-disable-next-line
+  document.querySelectorAll('.ntlForm').forEach(function (form) {
+    function ntlFormSuccess() {
+      console.log('form submitted');
+      form.reset();
+      document.querySelector('.successNoti').style.display = 'inline';
+    }
+
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const formData = new FormData(form);
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'multipart/form-data' },
+        body: new URLSearchParams(formData).toString(),
+      }).then(() => ntlFormSuccess()).catch((error) => alert(error));
+    });
+  });
 
   return (
     <div>
@@ -73,7 +59,6 @@ export default function ContactForm() {
           data-netlify="true"
           netlify-honeypot="bot-field"
           className="contactForm"
-          onSubmit={handleSubmit}
         >
           <input
             type="hidden"
@@ -84,18 +69,15 @@ export default function ContactForm() {
             type="email"
             name="email"
             placeholder="Your email"
-            onChange={handleChange}
           />
           <input
             type="text"
             name="name"
             placeholder="Your name"
-            onChange={handleChange}
           />
           <textarea
             name="message"
             placeholder="Messaage"
-            onChange={handleChange}
           />
           <button type="submit">Submit</button>
         </form>
