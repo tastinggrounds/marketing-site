@@ -46,11 +46,11 @@ export default function ContactForm() {
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({ 'form-name': 'contact', ...formData }),
+      body: encode({ 'form-name': 'contactForm', ...formData }),
     })
       .then(() => window.history.replaceState(null, null, '/contact#success=true'))
       // eslint-disable-next-line
-      .catch((error) => console.log(error));
+      .catch(error => console.log(error));
   }
 
   return (
