@@ -49,6 +49,7 @@ export default function ContactForm() {
       body: encode({ 'form-name': 'contact', ...formData }),
     })
       .then(() => window.history.replaceState(null, null, '/contact#success=true'))
+      // eslint-disable-next-line
       .catch((error) => console.log(error));
   }
 
