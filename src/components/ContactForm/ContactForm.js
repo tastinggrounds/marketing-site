@@ -5,9 +5,9 @@ import './ContactForm.css';
 export default function ContactForm() {
   const [success, setSuccess] = useState(false);
   const [formData, setFormData] = useState({
-    name: null,
-    email: null,
-    message: null,
+    name: '',
+    email: '',
+    message: '',
   });
 
   const handleChange = (e) => {
@@ -18,13 +18,14 @@ export default function ContactForm() {
     });
   };
 
-  // eslint-disable-next-line
+  /* eslint-disable */
   const encode = (data) => {
     return Object.keys(data)
-      // eslint-disable-next-line
-      .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+      .map((key) => encodeURIComponent(key) + '=' +
+      encodeURIComponent(data[key]))
       .join('&');
   };
+  /* eslint-enable */
 
   function submitForm(e) {
     e.preventDefault();
@@ -34,7 +35,7 @@ export default function ContactForm() {
       body: encode({ 'form-name': 'contactForm', ...formData }),
     })
       .then(() => setSuccess(true))
-      .then(() => setFormData({ name: null, email: null, message: null }))
+      .then(() => setFormData({ name: '', email: '', message: '' }))
       // eslint-disable-next-line
       .catch(error => console.log(error));
   }
@@ -66,16 +67,12 @@ export default function ContactForm() {
           onSubmit={submitForm}
         >
           <input
-            type="hidden"
-            name="form-name"
-            value="contactForm"
-          />
-          <input
             type="email"
             name="email"
             placeholder="Your email"
             value={formData.email}
             onChange={handleChange}
+            required
           />
           <input
             type="text"
@@ -83,12 +80,14 @@ export default function ContactForm() {
             placeholder="Your name"
             value={formData.name}
             onChange={handleChange}
+            required
           />
           <textarea
             name="message"
             placeholder="Messaage"
             value={formData.message}
             onChange={handleChange}
+            required
           />
           <button type="submit">Submit</button>
         </form>
