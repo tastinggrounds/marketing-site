@@ -34,7 +34,7 @@ export default function ContactForm() {
       body: encode({ 'form-name': 'contactForm', ...formData }),
     })
       .then(() => setSuccess(true))
-      .then(() => setFormData({name: null, email: null,  message: null}))
+      .then(() => setFormData({ name: null, email: null, message: null }))
       // eslint-disable-next-line
       .catch(error => console.log(error));
   }
