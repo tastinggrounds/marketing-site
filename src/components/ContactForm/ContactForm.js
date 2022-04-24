@@ -49,7 +49,7 @@ export default function ContactForm() {
       body: encode({ 'form-name': 'contact', ...formData }),
     })
       .then(() => window.history.replaceState(null, null, '/contact#success=true'))
-      .catch((error) => alert(error));
+      .catch((error) => console.log(error));
   }
 
   return (
