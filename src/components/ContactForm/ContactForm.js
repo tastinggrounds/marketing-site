@@ -35,9 +35,9 @@ export default function ContactForm() {
 
   // eslint-disable-next-line
   const encode = (data) => {
-    return Object.keys(formData)
+    return Object.keys(data)
       // eslint-disable-next-line
-      .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(formData[key]))
+      .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
       .join('&');
   };
 
