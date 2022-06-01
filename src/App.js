@@ -6,7 +6,7 @@ import {
   Navigate,
   Routes,
 } from 'react-router-dom';
-import Helmet from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import AboutScreen from './screens/AboutScreen/AboutScreen';
 import ContactScreen from './screens/ContactScreen/ContactScreen';
@@ -44,15 +44,16 @@ export default function App() {
             <Link className="right-link" to="/contact">Contact</Link>
           </div>
         </div>
-
-        <Helmet>
-          <title>Tasting Grounds | Discover, Rate, Share, & Brew Coffee Together</title>
-          <meta
-            name="description"
-            content="Log & rate your coffee brews, discover new coffees & roasters, and share with the community of fellow specialty coffee lovers with the free Tasting Grounds app for iOS and Android! Tasting Grounds is what some may call the Untappd or Vivino of coffee!"
-          />
-        </Helmet>
-
+        <HelmetProvider>
+          <Helmet>
+            <title>Tasting Grounds | Discover, Rate, Share, & Brew Coffee Together</title>
+            <meta
+              name="description"
+              content="Log & rate your coffee brews, discover new coffees & roasters, and share with the community of fellow specialty coffee lovers with the free Tasting Grounds app for iOS and Android! Tasting Grounds is what some may call the Untappd or Vivino of coffee!"
+            />
+            <link rel="canonical" href="https://tastinggrounds.com" />
+          </Helmet>
+        </HelmetProvider>
         <div className="AppContentContainer">
           <Routes>
             <Route path="/" element={<HomeScreen />} />

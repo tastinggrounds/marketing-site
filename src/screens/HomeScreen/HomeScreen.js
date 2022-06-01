@@ -23,9 +23,9 @@ export default function HomeScreen() {
             <span className="HeadingCoffee">Together</span>
           </Heading>
           <Heading size={Heading.SIZES.XSMALL}>
-            A coffee community where you can log your brews,
-            rate & review your coffees, discover new roasters,
-            and share with your friends.
+            A specialty coffee community for logging the coffees you drink,
+            rating & reviewing your coffee brews, discovering new coffee roasters,
+            and sharing coffee with your friends.
           </Heading>
           <DownloadButtons />
         </div>
