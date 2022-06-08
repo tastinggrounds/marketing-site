@@ -2,7 +2,6 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Link,
   Navigate,
   Routes,
 } from 'react-router-dom';
@@ -20,7 +19,7 @@ import PrivacyPolicyScreen from './screens/LegalScreens/PrivacyPolicyScreen';
 import TastingNotesScreen from './screens/LearnScreen/LearnContentScreens/TastingNotesScreen';
 import TermsScreen from './screens/LegalScreens/TermsScreen';
 
-import HomeButton from './components/HomeButton/HomeButton';
+import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import DownloadRedirect from './components/DownloadRedirect/DownloadRedirect';
@@ -32,18 +31,7 @@ export default function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop />
       <div>
-        <div className="AppHeaderContainer">
-          <div className="left-grouping">
-            <Link className="home-link" to="/">
-              <HomeButton />
-            </Link>
-          </div>
-          <div className="right-grouping">
-            <Link className="right-link" to="/about">About</Link>
-            <Link className="right-link" to="/learn">Learn</Link>
-            <Link className="right-link" to="/contact">Contact</Link>
-          </div>
-        </div>
+        <Navbar />
         <HelmetProvider>
           <Helmet>
             <title>Tasting Grounds | Discover, Rate, Share, & Brew Coffee Together</title>
