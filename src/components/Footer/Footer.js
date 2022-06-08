@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useMemo } from 'react';
 
 import './Footer.css';
 import { IconContext } from 'react-icons';
@@ -10,6 +10,8 @@ import {
 } from 'react-icons/si';
 import MailChimpForm from '../MailChimpForm/MailChimpForm';
 
+const socialIcons = useMemo(() => ({ className: 'FooterLogoImage', size: '1.5em' }), []);
+
 export default function Footer() {
   return (
     <div className="FooterContainer">
@@ -18,7 +20,7 @@ export default function Footer() {
       </div>
       <div className="FooterCenterContainer">
         <div className="FooterLogoContainer">
-          <IconContext.Provider value={{ className: 'FooterLogoImage', size: '1.5em' }}>
+          <IconContext.Provider value={socialIcons}>
             <a href="https://www.instagram.com/tastinggrounds/" target="_blank" rel="noopener noreferrer">
               <SiInstagram />
             </a>
