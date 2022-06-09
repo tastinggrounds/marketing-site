@@ -42,9 +42,9 @@ export default function Navbar() {
       {/* eslint-disable-next-line react/button-has-type */}
       <button onClick={toggleNav} className="btn">
         {toggleMenu ? (
-          <MdClose style={{ color: '#203530', width: '30px', height: '30px' }} />
+          <MdClose className="btnIcon" />
         ) : (
-          <FiMenu style={{ color: '#203530', width: '30px', height: '30px' }} />
+          <FiMenu className="btnIcon" />
         )}
       </button>
     </nav>
