@@ -15,10 +15,14 @@
 
 @media ( max-width : 600px) {
   .HomeIconImage {
-    width: 40px;
+    width: 45px;
   }
 
   .HomeTextImage {
-    width: 120px;
+    width: 130px;
+  }
+
+  .HomeButtonContainer {
+    padding: 10px 5px;
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "marketing-site",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "private": true,
   "homepage": "https://tastinggrounds.com",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "react": "^18.0.0",
-    "react-device-detect": "^2.1.2",
+    "react-device-detect": "^2.2.2",
     "react-dom": "^18.0.0",
     "react-helmet-async": "^1.3.0",
     "react-icons": "^4.3.1",
@@ -21,11 +21,11 @@
     "react-scripts": "^5.0.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.16.3",
-    "@testing-library/react": "^12.1.3",
-    "@testing-library/user-event": "^14.0.3",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-plugin-react": "^7.29.4"
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-react": "^7.30.0"
   },
   "eslintConfig": {
     "extends": "react-app"

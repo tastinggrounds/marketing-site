@@ -9,10 +9,6 @@
     padding-right: 15vw;
 }
 
-a {
-    color: #ae8951;
-}
-
 @media (max-width : 800px) {
     .AboutScreenBodyContainer {
         padding-left: 10vw;

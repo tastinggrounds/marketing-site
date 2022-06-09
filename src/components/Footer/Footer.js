@@ -18,6 +18,7 @@ export default function Footer() {
       </div>
       <div className="FooterCenterContainer">
         <div className="FooterLogoContainer">
+          {/* eslint-disable-next-line react/jsx-no-constructed-context-values */}
           <IconContext.Provider value={{ className: 'FooterLogoImage', size: '1.5em' }}>
             <a href="https://www.instagram.com/tastinggrounds/" target="_blank" rel="noopener noreferrer">
               <SiInstagram />

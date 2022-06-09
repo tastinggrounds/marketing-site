@@ -27,10 +27,6 @@
     padding: 5vh;
 }
 
-a {
-    text-decoration: none;
-}
-
 @media (max-width : 800px) {
     .LearnScreenBodyContainer {
         padding-left: 10vw;
