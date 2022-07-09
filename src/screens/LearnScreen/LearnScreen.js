@@ -54,6 +54,14 @@ export default function LearnScreen() {
               notes on Tasting Grounds.
             </Heading>
             {/* eslint-disable-next-line */}
+            <Heading size={Heading.SIZES.SMALL}>🔥  <Link to="/learn/roast-profiles">Guide to Coffee Roast Profiles</Link></Heading>
+            <Heading size={Heading.SIZES.XSMALL}>
+              Roast profiles allow roasters to highlight characteristics to a coffee. Light,
+              medium, and dark roasts are suited for slightly different brew processes.
+              This is our guide to roast profiles and how to brew you coffee better based on the
+              roast level.
+            </Heading>
+            {/* eslint-disable-next-line */}
             <Heading size={Heading.SIZES.SMALL}>ℹ  <Link to="/learn/information-standards">Guide to Coffee & Roaster Information</Link></Heading>
             <Heading size={Heading.SIZES.XSMALL}>
               The Tasting Grounds community thrives off of user generated content.

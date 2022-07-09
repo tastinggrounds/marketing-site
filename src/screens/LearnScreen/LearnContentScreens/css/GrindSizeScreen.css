@@ -1,0 +1,40 @@
+.GrindSizeContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.GrindSizeIcon {
+    width: 225px;
+    float: left;
+    padding: 25px;
+}
+
+.GrindSizeImages {
+    width: 400px;
+    padding: 10px;
+}
+
+.GrindSizeTextContainer {
+    align-self: center;
+}
+
+@media (max-width : 1000px) {
+    .GrindSizeContainer {
+        display: unset;
+    }
+
+    .GrindSizeImageContainer {
+        text-align: center; 
+    }
+}
+
+@media (max-width : 800px) {
+    .GrindSizeIcon {
+        width: 150px;
+        float: unset;
+    }
+
+    .GrindSizeImages {
+        width: 300px;
+    }
+}
