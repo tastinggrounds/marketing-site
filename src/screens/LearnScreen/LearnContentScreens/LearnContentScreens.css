@@ -9,10 +9,16 @@
     text-align: left;
     padding-left: 18vw;
     padding-right: 18vw;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .LearnContentSceensBodyContainer h5 {
+    margin: auto;
+}
+
+.LearnContentSceensBodyContainer h6 {
+    font-size: 24px;
+    font-weight: bold;
     margin: auto;
 }
 
@@ -30,16 +36,14 @@
     height: 400px;
 }
 
-.GrindSizeIcon {
-    width: 225px;
-    float: left;
-    padding: 25px;
+.Image {
+    width: 500px; 
+    height: 500px;
+    padding: 10px
 }
 
-.GrindSizeImages {
-    float: right;
-    width: 400px;
-    padding: 10px
+.BannerImage {
+    width: 100%;
 }
 
 .TastingNotesIcon {
@@ -54,14 +58,23 @@
     padding: 25px;
 }
 
+.AffiliateText {
+    font-size: 14px;
+    text-align: center;
+}
+
+.ImageText {
+    font-size: 16px;
+}
+
 @media (max-width : 1000px) {
     .LearnContentSceensBodyContainer {
         padding-left: 8vw;
         padding-right: 8vw;
     }
 
-    .GrindSizeImages {
-        float: unset;
+    .LearnContentSceensBodyContainer h6 {
+        font-size:  unset;
     }
 }
 
@@ -80,13 +93,9 @@
         height: 200px;
     }
 
-    .GrindSizeIcon {
-        width: 150px;
-        float: unset;
-    }
-
-    .GrindSizeImages {
-        width: 300px;
+    .Image {
+        width: 400px; 
+        height: 400px;
     }
 
     .TastingNotesIcon {
@@ -101,10 +110,6 @@
 }   
 
 @media (max-width : 600px) {
-    .GrindSizeImages {
-        width: 275px;
-    }
-
     .TastingNotesIcon {
         float: unset;
         padding: unset;
@@ -115,5 +120,10 @@
         width: 300px;
         float: unset;
         padding: unset;
+    }
+
+    .Image {
+        width: 300px; 
+        height: 300px;
     }
 }
