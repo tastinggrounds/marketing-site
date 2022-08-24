@@ -87,7 +87,7 @@ export default function GrindSizesScreen() {
                   : 5-10 clicks
                 </li>
                 <li>
-                  <a href="https://amzn.to/3KBDh8i" target="_blank" rel="nofollow">Timemore Chestnut</a>
+                  <a href="https://prima-coffee.com/equipment/timemore/timemore-c2-max-timem-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Timemore C2</a>
                   : 0-6 (not recommended)
                 </li>
                 <li>
@@ -129,7 +129,7 @@ export default function GrindSizesScreen() {
                   : 11-15
                 </li>
                 <li>
-                  <a href="https://amzn.to/3KBDh8i" target="_blank" rel="nofollow">Timemore Chestnut</a>
+                  <a href="https://prima-coffee.com/equipment/timemore/timemore-c2-max-timem-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Timemore C2</a>
                   : 7-10
                 </li>
                 <li>
@@ -171,7 +171,7 @@ export default function GrindSizesScreen() {
                   : 16-20
                 </li>
                 <li>
-                  <a href="https://amzn.to/3KBDh8i" target="_blank" rel="nofollow">Timemore Chestnut</a>
+                  <a href="https://prima-coffee.com/equipment/timemore/timemore-c2-max-timem-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Timemore C2</a>
                   : 11-15
                 </li>
                 <li>
@@ -210,7 +210,7 @@ export default function GrindSizesScreen() {
                   : 21-25
                 </li>
                 <li>
-                  <a href="https://amzn.to/3KBDh8i" target="_blank" rel="nofollow">Timemore Chestnut</a>
+                  <a href="https://prima-coffee.com/equipment/timemore/timemore-c2-max-timem-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Timemore C2</a>
                   : 16-20
                 </li>
                 <li>
@@ -249,7 +249,7 @@ export default function GrindSizesScreen() {
                   : 26-30
                 </li>
                 <li>
-                  <a href="https://amzn.to/3KBDh8i" target="_blank" rel="nofollow">Timemore Chestnut</a>
+                  <a href="https://prima-coffee.com/equipment/timemore/timemore-c2-max-timem-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Timemore C2</a>
                   : 21-23
                 </li>
                 <li>
@@ -288,7 +288,7 @@ export default function GrindSizesScreen() {
                   : 31-35
                 </li>
                 <li>
-                  <a href="https://amzn.to/3KBDh8i" target="_blank" rel="nofollow">Timemore Chestnut</a>
+                  <a href="https://prima-coffee.com/equipment/timemore/timemore-c2-max-timem-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Timemore C2</a>
                   : 24-28
                 </li>
                 <li>
@@ -330,7 +330,7 @@ export default function GrindSizesScreen() {
                   : 36+
                 </li>
                 <li>
-                  <a href="https://amzn.to/3KBDh8i" target="_blank" rel="nofollow">Timemore Chestnut</a>
+                  <a href="https://prima-coffee.com/equipment/timemore/timemore-c2-max-timem-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Timemore C2</a>
                   : 29+
                 </li>
                 <li>
