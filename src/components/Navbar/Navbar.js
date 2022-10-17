@@ -35,6 +35,7 @@ export default function Navbar() {
       <ul className="list">
         <li className="items"><Link to="/about" onClick={toggleNav}>About</Link></li>
         <li className="items"><Link to="/learn" onClick={toggleNav}>Learn</Link></li>
+        <li className="items"><Link to="/support-us" onClick={toggleNav}>Support Us</Link></li>
         <li className="items"><Link to="/contact" onClick={toggleNav}>Contact</Link></li>
       </ul>
       )}

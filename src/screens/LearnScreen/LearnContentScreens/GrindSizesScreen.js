@@ -91,7 +91,7 @@ export default function GrindSizesScreen() {
                   : 0-6 (not recommended)
                 </li>
                 <li>
-                  <a href="https://fellowproducts.com/products/ode-brew-grinder?rfsn=5706149.a8bdbd&utm_source=refersion&utm_medium=affiliate&utm_campaign=5706149.a8bdbd" target="_blank" rel="nofollow">Fellow Ode</a>
+                  <a href="https://fellow.sjv.io/0JNa0P" target="_blank" rel="nofollow">Fellow Ode</a>
                   : probably should try a different grinder
                 </li>
                 <li>
@@ -133,7 +133,7 @@ export default function GrindSizesScreen() {
                   : 7-10
                 </li>
                 <li>
-                  <a href="https://fellowproducts.com/products/ode-brew-grinder?rfsn=5706149.a8bdbd&utm_source=refersion&utm_medium=affiliate&utm_campaign=5706149.a8bdbd" target="_blank" rel="nofollow">Fellow Ode</a>
+                  <a href="https://fellow.sjv.io/0JNa0P" target="_blank" rel="nofollow">Fellow Ode</a>
                   : 1-2
                 </li>
                 <li>
@@ -175,7 +175,7 @@ export default function GrindSizesScreen() {
                   : 11-15
                 </li>
                 <li>
-                  <a href="https://fellowproducts.com/products/ode-brew-grinder?rfsn=5706149.a8bdbd&utm_source=refersion&utm_medium=affiliate&utm_campaign=5706149.a8bdbd" target="_blank" rel="nofollow">Fellow Ode</a>
+                  <a href="https://fellow.sjv.io/0JNa0P" target="_blank" rel="nofollow">Fellow Ode</a>
                   : 2-3
                 </li>
                 <li>
@@ -214,7 +214,7 @@ export default function GrindSizesScreen() {
                   : 16-20
                 </li>
                 <li>
-                  <a href="https://fellowproducts.com/products/ode-brew-grinder?rfsn=5706149.a8bdbd&utm_source=refersion&utm_medium=affiliate&utm_campaign=5706149.a8bdbd" target="_blank" rel="nofollow">Fellow Ode</a>
+                  <a href="https://fellow.sjv.io/0JNa0P" target="_blank" rel="nofollow">Fellow Ode</a>
                   : 3-5
                 </li>
                 <li>
@@ -253,7 +253,7 @@ export default function GrindSizesScreen() {
                   : 21-23
                 </li>
                 <li>
-                  <a href="https://fellowproducts.com/products/ode-brew-grinder?rfsn=5706149.a8bdbd&utm_source=refersion&utm_medium=affiliate&utm_campaign=5706149.a8bdbd" target="_blank" rel="nofollow">Fellow Ode</a>
+                  <a href="https://fellow.sjv.io/0JNa0P" target="_blank" rel="nofollow">Fellow Ode</a>
                   : 5-6
                 </li>
                 <li>
@@ -292,7 +292,7 @@ export default function GrindSizesScreen() {
                   : 24-28
                 </li>
                 <li>
-                  <a href="https://fellowproducts.com/products/ode-brew-grinder?rfsn=5706149.a8bdbd&utm_source=refersion&utm_medium=affiliate&utm_campaign=5706149.a8bdbd" target="_blank" rel="nofollow">Fellow Ode</a>
+                  <a href="https://fellow.sjv.io/0JNa0P" target="_blank" rel="nofollow">Fellow Ode</a>
                   : 6-9
                 </li>
                 <li>
@@ -334,7 +334,7 @@ export default function GrindSizesScreen() {
                   : 29+
                 </li>
                 <li>
-                  <a href="https://fellowproducts.com/products/ode-brew-grinder?rfsn=5706149.a8bdbd&utm_source=refersion&utm_medium=affiliate&utm_campaign=5706149.a8bdbd" target="_blank" rel="nofollow">Fellow Ode</a>
+                  <a href="https://fellow.sjv.io/0JNa0P" target="_blank" rel="nofollow">Fellow Ode</a>
                   : 9-11
                 </li>
                 <li>

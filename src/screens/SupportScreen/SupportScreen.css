@@ -1,0 +1,41 @@
+.SupportScreenContainer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-inline: 28vw;
+}
+
+.SupportScreenBodyTextContainer {
+    text-align: left;
+}
+
+.AffiliateContainer {
+    margin-block: 25px;
+}
+
+.AffliateLinksContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.AffiliatePhoto {
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.BmacContainer img {
+    height: 75px;
+}
+
+.SupportScreenBodyContainer h5 {
+    margin-block: 25px;
+}
+
+@media (max-width : 800px) {
+
+    .SupportScreenContainer {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
