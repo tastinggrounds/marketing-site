@@ -17,6 +17,7 @@ import InformationStandardsScreen from './screens/LearnScreen/LearnContentScreen
 import LearnScreen from './screens/LearnScreen/LearnScreen';
 import PrivacyPolicyScreen from './screens/LegalScreens/PrivacyPolicyScreen';
 import RoastProfilesScreen from './screens/LearnScreen/LearnContentScreens/RoastProfilesScreen';
+import SupportScreen from './screens/SupportScreen/SupportScreen';
 import TastingNotesScreen from './screens/LearnScreen/LearnContentScreens/TastingNotesScreen';
 import TermsScreen from './screens/LegalScreens/TermsScreen';
 
@@ -47,17 +48,18 @@ export default function App() {
           <Routes>
             <Route path="/" element={<HomeScreen />} />
             <Route path="/about" element={<AboutScreen />} />
+            <Route path="/contact" element={<ContactScreen />} />
+            <Route path="/data-removal" element={<DataRemovalScreen />} />
+            <Route path="/download" element={<DownloadRedirect />} />
             <Route path="/learn" element={<LearnScreen />} />
             <Route path="/learn/flavor-profiles" element={<FlavorProfilesScreen />} />
             <Route path="/learn/grind-sizes" element={<GrindSizesScreen />} />
             <Route path="/learn/information-standards" element={<InformationStandardsScreen />} />
             <Route path="/learn/roast-profiles" element={<RoastProfilesScreen />} />
             <Route path="/learn/tasting-notes" element={<TastingNotesScreen />} />
-            <Route path="/contact" element={<ContactScreen />} />
             <Route path="/privacy" element={<PrivacyPolicyScreen />} />
+            <Route path="/support-us" element={<SupportScreen />} />
             <Route path="/terms" element={<TermsScreen />} />
-            <Route path="/data-removal" element={<DataRemovalScreen />} />
-            <Route path="/download" element={<DownloadRedirect />} />
             <Route
               path="*"
               element={<Navigate to="/" replace />}
