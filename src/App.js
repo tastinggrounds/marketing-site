@@ -20,6 +20,7 @@ import RoastProfilesScreen from './screens/LearnScreen/LearnContentScreens/Roast
 import SupportScreen from './screens/SupportScreen/SupportScreen';
 import TastingNotesScreen from './screens/LearnScreen/LearnContentScreens/TastingNotesScreen';
 import TermsScreen from './screens/LegalScreens/TermsScreen';
+import VarietiesScreen from './screens/VarietiesScreen/VarietiesScreen';
 
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
@@ -60,6 +61,7 @@ export default function App() {
             <Route path="/privacy" element={<PrivacyPolicyScreen />} />
             <Route path="/support-us" element={<SupportScreen />} />
             <Route path="/terms" element={<TermsScreen />} />
+            <Route path="/varieties" element={<VarietiesScreen />} />
             <Route
               path="*"
               element={<Navigate to="/" replace />}
