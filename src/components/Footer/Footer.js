@@ -26,7 +26,7 @@ export default function Footer() {
             <a href="https://twitter.com/tastinggrounds" target="_blank" rel="noopener noreferrer">
               <SiTwitter />
             </a>
-            <a href="https://www.facebook.com/tastingcoffeegrounds" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/tastinggrounds" target="_blank" rel="noopener noreferrer">
               <SiFacebook />
             </a>
             <a href="https://www.reddit.com/r/TastingGrounds" target="_blank" rel="noopener noreferrer">
