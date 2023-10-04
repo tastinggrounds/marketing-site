@@ -1,0 +1,34 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "Q8V7YUM976.com.tastinggrounds.app",
+          "Q8V7YUM976.com.tastinggrounds.develop.app"
+        ],
+        "components": [
+          {
+            "/": "/coffee/*",
+            "comment": "Coffee links"
+          },
+          {
+            "/": "/roaster/*",
+            "comment": "Roaster links"
+          },
+          {
+            "/": "/farm/*",
+            "comment": "Farm links"
+          },
+          {
+            "/": "/producer/*",
+            "comment": "Producer links"
+          },
+          {
+            "/": "/brew/*",
+            "comment": "Brew links"
+          }
+        ]
+      }
+    ]
+  }
+}
