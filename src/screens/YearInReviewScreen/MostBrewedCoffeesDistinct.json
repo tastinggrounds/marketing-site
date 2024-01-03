@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Holler Mountain",
+        "detail": "Stumptown Coffee Roasters",
+        "imageUrl": "https://stumptown-shop.imgix.net/products/STCShopifyHollerMountain_ProductImageTransparentPNG.png?v=1622144033&auto=format,compress&w=375"
+    },
+    {
+        "id": 2,
+        "name": "Southern Weather",
+        "detail": "Onyx Coffee Lab"
+    },
+    {
+        "id": 3,
+        "name": "Hair Bender",
+        "detail": "Stumptown Coffee Roasters"
+    },
+    {
+        "id": 4,
+        "name": "Big Trouble",
+        "detail": "Counter Culture"
+    },
+    {
+        "id": 5,
+        "name": "Black Cat Classic Espresso",
+        "detail": "Intelligentsia"
+    }
+]

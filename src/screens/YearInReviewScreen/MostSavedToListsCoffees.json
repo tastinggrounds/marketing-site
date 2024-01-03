@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Southern Weather",
+        "detail": "Onyx Coffee Lab",
+        "imageUrl": "https://production.cdntg.xyz/coffees/ad186911-8885-4ccf-9e88-0f7a5196dbc0.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Tropical Weather",
+        "detail": "Onyx Coffee Lab"
+    },
+    {
+        "id": 3,
+        "name": "Monarch",
+        "detail": "Onyx Coffee Lab"
+    },
+    {
+        "id": 4,
+        "name": "Colombia Natural Wush Wush Café Granja La Esperanza",
+        "detail": "Standout Coffee"
+    },
+    {
+        "id": 5,
+        "name": "El Paraiso Lychee",
+        "detail": "Hatch"
+    }
+]

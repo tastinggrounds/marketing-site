@@ -1,0 +1,134 @@
+:root {
+    --swiper-theme-color: #d3d3d3;
+  }
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.swiper-slide, .swiper-slide h1 {
+  text-align: center;
+  font-size: 3vw;
+  font-weight: 500;
+  color: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  transform: translateX(-50%) rotate(90deg);
+  left: 50%;
+}
+
+.swiper-button-next {
+  bottom: 10px;
+  top: auto;
+}
+
+.swiper-button-prev {
+  top: 25px;
+  bottom: auto;
+}
+
+.swiper-vertical > .swiper-pagination-progressbar, 
+.swiper-pagination-progressbar.swiper-pagination-vertical {
+    left: auto;
+    right: 0;
+    top: 0;
+    width: 8px;
+}
+
+.app-icon {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  z-index: 100; /* Ensure it's above the Swiper */
+}
+
+@media (max-width : 600px) {
+  :root {
+    --swiper-navigation-size: 30px; /* Smaller size for navigation buttons */
+  }
+
+  .swiper-slide {
+    font-size: 5vw;
+  }
+
+  .swiper-slide h1 {
+    font-size: 8vw; 
+  }
+  
+  .app-icon .HomeIconImage {
+    width: 30px;
+  }
+
+  .app-icon .HomeTextImage {
+    width: 90px;
+  }
+
+  .app-icon .HomeButtonContainer {
+    padding: 5px 2.5px;
+  }
+
+  .swiper-vertical > .swiper-pagination-progressbar, 
+  .swiper-pagination-progressbar.swiper-pagination-vertical {
+    width: 4px;
+  }
+
+  .year-review-image {
+    max-width: 100%!important; /* idk why this is necessary */
+  }
+
+  .content-heading-text {
+    font-size: 4vw!important; /* wtf */
+  }
+}
+
+.intro-slides {
+  background-color: #ff6b6b;
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  max-height: 100%; 
+}
+
+.year-review-image {
+  max-width: 75%;    
+}
+
+.highlight {
+  font-weight: bolder;
+}
+
+.stats-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mint {
+  color:#a8e6cf;
+}
+
+.content-heading-text {
+  font-size: 2vw;
+}
+
+.coffee-slides {
+  background-color: #ff7f50;
+}
+
+.roaster-slides {
+  background-color: #9b5de5;
+}

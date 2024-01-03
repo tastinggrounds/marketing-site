@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Onyx Coffee Lab",
+        "detail": "Rogers, AR",
+        "imageUrl": "/assets/onyx.png"
+    },
+    {
+        "id": 2,
+        "name": "Rogue Wave Coffee Roasters",
+        "detail": "Edmonton, AB"
+    },
+    {
+        "id": 3,
+        "name": "Intelligentsia",
+        "detail": "Chicago, IL"
+    },
+    {
+        "id": 4,
+        "name": "Alana’s Coffee Roasters",
+        "detail": "Los Angeles, CA"
+    },
+    {
+        "id": 5,
+        "name": "Kurasu",
+        "detail": "Kyoto, Japan"
+    }
+]

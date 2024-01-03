@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Black Cat Espresso",
+        "detail": "Intelligentsia",
+        "imageUrl": "/assets/black-cat.png"
+    },
+    {
+        "id": 2,
+        "name": "Gran Aroma",
+        "detail": "Lavazza"
+    },
+    {
+        "id": 3,
+        "name": "Ethiopia Sidamo Ardi",
+        "detail": "Alana’s Coffee Roasters"
+    },
+    {
+        "id": 4,
+        "name": "Southern Weather",
+        "detail": "Onyx Coffee Lab"
+    },
+    {
+        "id": 5,
+        "name": "Nguisse Nare",
+        "detail": "Regalia Coffee"
+    }
+]

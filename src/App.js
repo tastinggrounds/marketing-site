@@ -20,6 +20,7 @@ import RoastProfilesScreen from './screens/LearnScreen/LearnContentScreens/Roast
 import SupportScreen from './screens/SupportScreen/SupportScreen';
 import TastingNotesScreen from './screens/LearnScreen/LearnContentScreens/TastingNotesScreen';
 import TermsScreen from './screens/LegalScreens/TermsScreen';
+import YearInReviewScreen from './screens/YearInReviewScreen/YearInReviewScreen';
 
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
@@ -29,11 +30,14 @@ import DownloadRedirect from './components/DownloadRedirect/DownloadRedirect';
 import './App.css';
 
 export default function App() {
+  /* eslint-disable-next-line */
+  const displayNavbar = location.pathname !== '/2023';
+
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop />
       <div>
-        <Navbar />
+        { displayNavbar ? <Navbar /> : null }
         <HelmetProvider>
           <Helmet>
             <title>Tasting Grounds | Discover, Rate, Share, & Brew Coffee Together</title>
@@ -60,6 +64,7 @@ export default function App() {
             <Route path="/privacy" element={<PrivacyPolicyScreen />} />
             <Route path="/support-us" element={<SupportScreen />} />
             <Route path="/terms" element={<TermsScreen />} />
+            <Route path="/2023" element={<YearInReviewScreen />} />
             <Route
               path="*"
               element={<Navigate to="/" replace />}
