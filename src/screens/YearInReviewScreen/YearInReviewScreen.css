@@ -20,6 +20,12 @@
   align-items: center;
 }
 
+.swiper-slide h2 {
+  text-transform: uppercase;
+  font-size: 0.75em;
+  margin-bottom: 0;
+}
+
 .swiper-button-prev, .swiper-button-next {
   transform: translateX(-50%) rotate(90deg);
   left: 50%;
@@ -131,4 +137,8 @@
 
 .roaster-slides {
   background-color: #9b5de5;
+}
+
+.brew-slides {
+  background-color: #007bff;
 }

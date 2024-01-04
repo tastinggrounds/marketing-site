@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import TopList from '../../components/TopList/TopList';
+import PieChart from '../../components/PieChart/PieChart';
+import Histogram from '../../components/Histogram/Histogram';
 
 import HomeButton from '../../components/HomeButton/HomeButton';
 
@@ -28,8 +30,17 @@ import MostBrewedCoffees from './MostBrewedCoffees.json';
 import MostSavedToListsCoffees from './MostSavedToListsCoffees.json';
 import MostBrewedRoastersDistinct from './MostBrewedRoastersDistinct.json';
 import MostBrewedRoasters from './MostBrewedRoasters.json';
+import RatingData from './RatingData.json';
 
 export default function YearInReviewScreen() {
+  const coffeeData = [
+    { name: "ET", value: 746 },
+    { name: "CO", value: 743 },
+    { name: "BR", value: 305 },
+    { name: "KE", value: 216 },
+    { name: "GT", value: 166 }
+  ];
+  
   return (
     <>
       <HelmetProvider>
@@ -98,7 +109,7 @@ export default function YearInReviewScreen() {
         </SwiperSlide>
         <SwiperSlide data-hash='table-of-contents' className='intro-slides'>
           <div className='slide-content'>
-            <p className='mint'>Categories<br />---</p>
+            <p className='mint'>Categories</p>
             <span className='content-heading-text'>
               <a href="#most-brewed-coffees"><li>Most Brewed Coffees</li></a>
               <li>Most Brewed Origins</li>
@@ -113,28 +124,41 @@ export default function YearInReviewScreen() {
         {/* INTRO SLIDES */}
         {/* COFFEE SLIDES */}
         <SwiperSlide className='coffee-slides' data-hash='most-brewed-coffees-distinct'>
-          <TopList title='Most Brewed Coffees' subtitle='(Distinct Users)' items={MostBrewedCoffeesDistinct} />
+          <TopList title='Most Brewed Coffees' subtitle='With Brews by Distinct Users' items={MostBrewedCoffeesDistinct} />
         </SwiperSlide>
         <SwiperSlide className='coffee-slides' data-hash='most-brewed-coffees'>
-          <TopList title='Most Brewed Coffees' subtitle='(Overall)' items={MostBrewedCoffees} />
+          <TopList title='Most Brewed Coffees' subtitle='Overall' items={MostBrewedCoffees} />
         </SwiperSlide>
         <SwiperSlide className='coffee-slides' data-hash='most-saved-coffees'>
-          <TopList title="Most Saved To Lists Coffees" subtitle='(All Time)' items={MostSavedToListsCoffees} />
+          <TopList title="Most Saved To Lists" subtitle='All Time' items={MostSavedToListsCoffees} />
         </SwiperSlide>
-        <SwiperSlide className='coffee-slides'>More Coffee Stats</SwiperSlide>
+        <SwiperSlide className='coffee-slides'>
+          <div className='slide-content'>
+            <h2>Top 5 Coffee Origins</h2>
+            <br />
+            <Histogram data={coffeeData} />
+          </div>
+        </SwiperSlide>
         {/* COFFEE SLIDES */}
         {/* ROASTERS SLIDES */}
         <SwiperSlide className='roaster-slides' data-hash='most-brewed-roasters-distinct'>
-          <TopList title="Most Brewed Roasters" subtitle='(Distinct Users)' items={MostBrewedRoastersDistinct} />
+          <TopList title="Most Brewed Roasters" subtitle='With Brews by Distinct Users' items={MostBrewedRoastersDistinct} />
         </SwiperSlide>
         <SwiperSlide className='roaster-slides' data-hash='most-brewed-roasters'>
-          <TopList title="Most Brewed Roasters" subtitle='(Overall)' items={MostBrewedRoasters} />
+          <TopList title="Most Brewed Roasters" subtitle='Overall' items={MostBrewedRoasters} />
         </SwiperSlide>
         {/* ROASTERS SLIDES */}
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
+        {/* BREWS SLIDES */}
+        <SwiperSlide className='brew-slides' data-hash='brew-ratings'>
+          <div className='slide-content'>
+            <h2>Brew Rating Distribution</h2>
+            <br />
+            <PieChart data={RatingData} />
+          </div>
+        </SwiperSlide>
         <SwiperSlide>Slide 8</SwiperSlide>
         <SwiperSlide>Slide 9</SwiperSlide>
+        {/* BREWS SLIDES */}
       </Swiper>
       <div className='app-icon'>
         {/* internal link caused weirdness, don't feel like dealing with it */}
