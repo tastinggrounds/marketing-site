@@ -1,0 +1,27 @@
+[
+    {
+        "name": "🇵🇦 Panama",
+        "value": 3.98,
+        "fill": "#305F72"
+    },
+    {
+        "name": "🇨🇳 China",
+        "value": 3.96,
+        "fill": "#A2D5F2"
+    },
+    {
+        "name": "🇹🇿 Tanzania",
+        "value": 3.85,
+        "fill": "#6CD1B3"
+    },
+    {
+        "name": "🇨🇴 Colombia",
+        "value": 3.84,
+        "fill": "#E0CBA8"
+    },
+    {
+        "name": "🇸🇻 El Salvador",
+        "value": 3.82,
+        "fill": "#B6B2D8"
+    }
+]

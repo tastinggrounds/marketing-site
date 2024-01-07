@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Monarch (4.71)",
+        "detail": "Onyx Coffee Lab",
+        "imageUrl": "https://production.cdntg.xyz/assets/marketing-site/2023/monarch.png"
+    },
+    {
+        "id": 2,
+        "name": "Apollo (4.20)",
+        "detail": "Counter Culture Coffee"
+    },
+    {
+        "id": 3,
+        "name": "Southern Weather (4.15)",
+        "detail": "Onyx Coffee Lab"
+    },
+    {
+        "id": 4,
+        "name": "Caffe Del Sol (4.08)",
+        "detail": "Caffe Vita"
+    },
+    {
+        "id": 5,
+        "name": "Costa Rica Las Lajas Natural (4.08)",
+        "detail": "Onyx Coffee Lab"
+    }
+]

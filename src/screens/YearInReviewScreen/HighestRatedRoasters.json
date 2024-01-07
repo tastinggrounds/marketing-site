@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Elixr Coffee (4.33)",
+        "detail": "🇺🇸 Philadelphia, PA",
+        "imageUrl": "https://production.cdntg.xyz/roasters/3debb724-8ea3-4100-a8f2-b009048ef7b8.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Glitch Coffee & Roasters (4.33)",
+        "detail": "🇯🇵 Tokyo, Japan"
+    },
+    {
+        "id": 3,
+        "name": "Dak Coffee Roasters (4.13)",
+        "detail": "🇳🇱 Amsterdam, Netherlands"
+    },
+    {
+        "id": 4,
+        "name": "April Coffee Roasters (4.13)",
+        "detail": "🇩🇰 Copenhagen, Denmark"
+    },
+    {
+        "id": 5,
+        "name": "Dune Coffee Roasters (4.12)",
+        "detail": "🇺🇸 Santa Barbara, CA"
+    }
+]

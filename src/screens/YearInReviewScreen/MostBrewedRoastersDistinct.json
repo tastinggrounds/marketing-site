@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Onyx Coffee Lab",
+        "detail": "🇺🇸 Rogers, AR",
+        "imageUrl": "https://production.cdntg.xyz/assets/marketing-site/2023/onyx.png"
+    },
+    {
+        "id": 2,
+        "name": "Starbucks",
+        "detail": "🇺🇸 Seattle, WA"
+    },
+    {
+        "id": 3,
+        "name": "Stumptown Coffee Roasters",
+        "detail": "🇺🇸 Portland, OR"
+    },
+    {
+        "id": 4,
+        "name": "Counter Culture",
+        "detail": "🇺🇸 Durham, NC"
+    },
+    {
+        "id": 5,
+        "name": "Intelligentsia",
+        "detail": "🇺🇸 Chicago, IL"
+    }
+]

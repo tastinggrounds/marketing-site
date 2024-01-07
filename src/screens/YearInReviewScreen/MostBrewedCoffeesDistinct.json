@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Holler Mountain",
+        "detail": "Stumptown Coffee Roasters",
+        "imageUrl": "https://production.cdntg.xyz/coffees/1f0b320a-4626-47d6-9791-d7de4c0334cd.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Southern Weather",
+        "detail": "Onyx Coffee Lab"
+    },
+    {
+        "id": 3,
+        "name": "Hair Bender",
+        "detail": "Stumptown Coffee Roasters"
+    },
+    {
+        "id": 4,
+        "name": "Big Trouble",
+        "detail": "Counter Culture"
+    },
+    {
+        "id": 5,
+        "name": "Black Cat Classic Espresso",
+        "detail": "Intelligentsia"
+    }
+]
