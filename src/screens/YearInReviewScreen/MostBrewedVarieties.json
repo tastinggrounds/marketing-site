@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Caturra",
+        "value": 482,
+        "fill": "#8A2BE2"
+    },
+    {
+        "name": "Bourbon",
+        "value": 390,
+        "fill": "#87CEEB"
+    },
+    {
+        "name": "Heirloom",
+        "value": 307,
+        "fill": "#C71585"
+    },
+    {
+        "name": "Catuai",
+        "value": 266,
+        "fill": "#32CD32"
+    },
+    {
+        "name": "Geisha/Gesha",
+        "value": 226,
+        "fill": "#FFA07A"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "🍫 Dark Chocolate",
+        "value": 286,
+        "fill": "#671f1c"
+    },
+    {
+        "name": "🍫 Milk Chocolate",
+        "value": 237,
+        "fill": "#814142"
+    },
+    {
+        "name": "🫖 Black Tea",
+        "value": 162,
+        "fill": "#2b1d16"
+    },
+    {
+        "name": "🍊 Orange",
+        "value": 154,
+        "fill": "#ff8d27"
+    },
+    {
+        "name": "🍋 Lemon",
+        "value": 150,
+        "fill": "#ede34b"
+    }
+]

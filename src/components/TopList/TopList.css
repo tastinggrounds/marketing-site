@@ -1,7 +1,3 @@
-.top-list {
-  /* ... existing styles ... */
-}
-
 .top-list h2 {
   text-transform: uppercase;
   font-size: 0.75em;
@@ -14,10 +10,6 @@
   margin-top: 0;
 }
 
-.top-list .item-info, .top-list ul {
-  text-align: left;
-}
-
 .top-item {
   display: flex;
   align-items: center;
@@ -26,6 +18,8 @@
 
 .top-item img {
   height: 320px;
+  border-radius: 50%;
+  margin: 25px;
 }
 
 .top-item .item-info h3 {
@@ -63,5 +57,11 @@
 
   .top-list {
     margin-inline: 20px;
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .top-item img {
+    margin: 10px;
   }
 }

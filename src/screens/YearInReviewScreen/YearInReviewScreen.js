@@ -8,6 +8,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import TopList from '../../components/TopList/TopList';
 import PieChart from '../../components/PieChart/PieChart';
 import Histogram from '../../components/Histogram/Histogram';
+import DownloadButtons from '../../components/DownloadButtons/DownloadButtons';
 
 import HomeButton from '../../components/HomeButton/HomeButton';
 
@@ -31,16 +32,17 @@ import MostSavedToListsCoffees from './MostSavedToListsCoffees.json';
 import MostBrewedRoastersDistinct from './MostBrewedRoastersDistinct.json';
 import MostBrewedRoasters from './MostBrewedRoasters.json';
 import RatingData from './RatingData.json';
+import HighestRatedRoasters from './HighestRatedRoasters.json';
+import HighestRatedCoffees from './HighestRatedCoffees.json';
+import MostBrewedOrigins from './MostBrewedOrigins.json';
+import HighestRatedOrigins from './HighestRatedOrigins.json';
+import MostBrewedVarieties from './MostBrewedVarieties.json';
+import HighestRatedVarieties from './HighestRatedVarieties.json';
+import MostUsedBrewMethods from './MostUsedBrewMethods.json';
+import HighestRatedBrewMethods from './HighestRatedBrewMethods.json';
+import MostTastedFlavors from './MostTastedFlavors.json';
 
 export default function YearInReviewScreen() {
-  const coffeeData = [
-    { name: "ET", value: 746 },
-    { name: "CO", value: 743 },
-    { name: "BR", value: 305 },
-    { name: "KE", value: 216 },
-    { name: "GT", value: 166 }
-  ];
-  
   return (
     <>
       <HelmetProvider>
@@ -48,7 +50,7 @@ export default function YearInReviewScreen() {
           <title>2023 Year In Review | Tasting Grounds</title>
           <meta
             name="description"
-            content="2023 Year In Review for the Tasting Grounds coffee communnity. See how many brews were logged, how many coffees were discovered, and more!"
+            content="2023 Year In Review for the Tasting Grounds coffee community!"
           />
           <link rel="canonical" href="https://tastinggrounds.com/2023" />
         </Helmet>
@@ -75,7 +77,7 @@ export default function YearInReviewScreen() {
         <SwiperSlide data-hash='year-in-review' className='intro-slides'>
           <div className='slide-content'>
             <h1>2023<br />Year In Coffee Brews</h1>
-            <img className='year-review-image' src={`${process.env.PUBLIC_URL}/assets/year-in-review-image-no-table.png`} alt='year in review' />
+            <img className='year-review-image' src={`https://production.cdntg.xyz/assets/marketing-site/2023/year-in-review-image-no-table.png`} alt='year in review' />
           </div>
         </SwiperSlide>
         <SwiperSlide data-hash='the-basics' className='intro-slides'>
@@ -111,44 +113,68 @@ export default function YearInReviewScreen() {
           <div className='slide-content'>
             <p className='mint'>Categories</p>
             <span className='content-heading-text'>
-              <a href="#most-brewed-coffees"><li>Most Brewed Coffees</li></a>
-              <li>Most Brewed Origins</li>
-              <li>Highest Rated Origins</li>
-              <li>Highest Rated Varieties</li>
-              <li>Most Brewed Roasters</li>
-              <li>Most Brewed Roasters by Location</li>
-              <li></li>
+              <a href='#coffees'><h2><li>Coffees</li></h2></a>
+              <a href='#roasters'><h2><li>Roasters</li></h2></a>
+              <a href='#brews'><h2><li>Brews</li></h2></a>
             </span>
           </div>
         </SwiperSlide>
         {/* INTRO SLIDES */}
         {/* COFFEE SLIDES */}
+        <SwiperSlide className='coffee-slides' data-hash='coffees'>
+          <h2>Coffee Stuff</h2>
+        </SwiperSlide>
         <SwiperSlide className='coffee-slides' data-hash='most-brewed-coffees-distinct'>
           <TopList title='Most Brewed Coffees' subtitle='With Brews by Distinct Users' items={MostBrewedCoffeesDistinct} />
         </SwiperSlide>
         <SwiperSlide className='coffee-slides' data-hash='most-brewed-coffees'>
-          <TopList title='Most Brewed Coffees' subtitle='Overall' items={MostBrewedCoffees} />
+          <TopList title='Most Brewed Coffees' subtitle='Overall' items={MostBrewedCoffees} alignment={'right'} />
         </SwiperSlide>
         <SwiperSlide className='coffee-slides' data-hash='most-saved-coffees'>
           <TopList title="Most Saved To Lists" subtitle='All Time' items={MostSavedToListsCoffees} />
         </SwiperSlide>
-        <SwiperSlide className='coffee-slides'>
+        <SwiperSlide className='coffee-slides' data-hash='highest-rated-coffees'>
+          <TopList title="Highest Average Rated Coffees" subtitle='minimum 5 brews and distinct users' items={HighestRatedCoffees} alignment={'right'} />
+        </SwiperSlide>
+        <SwiperSlide className='coffee-slides' data-hash='most-brewed-origins'>
           <div className='slide-content'>
-            <h2>Top 5 Coffee Origins</h2>
-            <br />
-            <Histogram data={coffeeData} />
+            <Histogram title="Most Brewed Origins" data={MostBrewedOrigins} />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='coffee-slides' data-hash='highest-rated-origins'>
+          <div className='slide-content'>
+            <Histogram title="Highest Average Rated Origins" subtitle="brewed by at least 10 distinct users" data={HighestRatedOrigins} showValue={true}/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='coffee-slides' data-hash='most-brewed-varieties'>
+          <div className='slide-content'>
+            <Histogram title="Most Brewed Varieties" data={MostBrewedVarieties} />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='coffee-slides' data-hash='highest-rated-varieties'>
+          <div className='slide-content'>
+            <Histogram title="Highest Average Rated Varieties" data={HighestRatedVarieties} showValue={true} />
           </div>
         </SwiperSlide>
         {/* COFFEE SLIDES */}
         {/* ROASTERS SLIDES */}
+        <SwiperSlide className='roaster-slides' data-hash='roasters'>
+          <h2>Roaster Stuff</h2>
+        </SwiperSlide>
         <SwiperSlide className='roaster-slides' data-hash='most-brewed-roasters-distinct'>
           <TopList title="Most Brewed Roasters" subtitle='With Brews by Distinct Users' items={MostBrewedRoastersDistinct} />
         </SwiperSlide>
         <SwiperSlide className='roaster-slides' data-hash='most-brewed-roasters'>
-          <TopList title="Most Brewed Roasters" subtitle='Overall' items={MostBrewedRoasters} />
+          <TopList title="Most Brewed Roasters" subtitle='all brews' items={MostBrewedRoasters} alignment={'right'} />
+        </SwiperSlide>
+        <SwiperSlide className='roaster-slides' data-hash='highest-rated-roasters'>
+          <TopList title="Highest Average Rated Roasters" subtitle='minimum 5 brews and distinct users' items={HighestRatedRoasters} />
         </SwiperSlide>
         {/* ROASTERS SLIDES */}
         {/* BREWS SLIDES */}
+        <SwiperSlide className='brew-slides' data-hash='brews'>
+          <h2>Brews Stuff</h2>
+        </SwiperSlide>
         <SwiperSlide className='brew-slides' data-hash='brew-ratings'>
           <div className='slide-content'>
             <h2>Brew Rating Distribution</h2>
@@ -156,9 +182,29 @@ export default function YearInReviewScreen() {
             <PieChart data={RatingData} />
           </div>
         </SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide className='brew-slides' data-hash='most-used-brew-methods'>
+          <div className='slide-content'>
+            <Histogram title="Most Used Brew Methods" data={MostUsedBrewMethods} />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='brew-slides' data-hash='highest-rated-brew-methods'>
+          <div className='slide-content'>
+            <Histogram title="Highest Rated Brew Methods" subtitle='minimum 10 brews and distinct users' data={HighestRatedBrewMethods} showValue={true} />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='brew-slides' data-hash='most-tasted-flavors'>
+          <div className='slide-content'>
+            <Histogram title="Most Tasted Flavor Notes" data={MostTastedFlavors} />
+          </div>
+        </SwiperSlide>
         {/* BREWS SLIDES */}
+        <SwiperSlide className='intro-slides' data-hash='see-you-in-2024'>
+          <div className='slide-content'>
+            <h1>Here's to 2024!</h1>
+            <DownloadButtons />
+            <p className='mint'>#brewcoffeetogether</p> 
+          </div>
+        </SwiperSlide>
       </Swiper>
       <div className='app-icon'>
         {/* internal link caused weirdness, don't feel like dealing with it */}

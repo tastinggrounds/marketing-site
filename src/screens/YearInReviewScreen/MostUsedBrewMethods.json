@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Espresso",
+        "value": 1021,
+        "fill": "#FF6347"
+    },
+    {
+        "name": "Hario V60",
+        "value": 868,
+        "fill": "#D2691E"
+    },
+    {
+        "name": "Aeropress",
+        "value": 361,
+        "fill": "#800080"
+    },
+    {
+        "name": "Drip",
+        "value": 325,
+        "fill": "#3CB371"
+    },
+    {
+        "name": "Chemex",
+        "value": 267,
+        "fill": "#00CED1"
+    }
+]
