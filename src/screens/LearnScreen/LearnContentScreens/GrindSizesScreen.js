@@ -83,7 +83,7 @@ export default function GrindSizesScreen() {
               <p><b>Approximate Settings</b></p>
               <ul>
                 <li>
-                  <a href="https://prima-coffee.com/equipment/comandante/c40-mk4-coman-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Comandante C40</a>
+                  <a href="https://www.amazon.com/Comandante-4260113435663-Nitro-Blade-Black/dp/B07JQ4P976/ref=sr_1_6?keywords=Comandante&amp;qid=1706991493&amp;sr=8-6&amp;ufe=app_do%25253Aamzn1.fos.c3015c4a-46bb-44b9-81a4-dc28e6d374b3&_encoding=UTF8&tag=tastinggrou0f-20&linkCode=ur2&linkId=6bca9d0da43eac929f8cf421f39a7579&camp=1789&creative=9325" target="_blank" rel="nofollow">Comandante C40</a>
                   : 5-10 clicks
                 </li>
                 <li>
@@ -125,7 +125,7 @@ export default function GrindSizesScreen() {
               <p><b>Approximate Settings</b></p>
               <ul>
                 <li>
-                  <a href="https://prima-coffee.com/equipment/comandante/c40-mk4-coman-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Comandante C40</a>
+                  <a href="https://www.amazon.com/Comandante-4260113435663-Nitro-Blade-Black/dp/B07JQ4P976/ref=sr_1_6?keywords=Comandante&amp;qid=1706991493&amp;sr=8-6&amp;ufe=app_do%25253Aamzn1.fos.c3015c4a-46bb-44b9-81a4-dc28e6d374b3&_encoding=UTF8&tag=tastinggrou0f-20&linkCode=ur2&linkId=6bca9d0da43eac929f8cf421f39a7579&camp=1789&creative=9325" target="_blank" rel="nofollow">Comandante C40</a>
                   : 11-15
                 </li>
                 <li>
@@ -167,7 +167,7 @@ export default function GrindSizesScreen() {
               <p><b>Approximate Settings</b></p>
               <ul>
                 <li>
-                  <a href="https://prima-coffee.com/equipment/comandante/c40-mk4-coman-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Comandante C40</a>
+                  <a href="https://www.amazon.com/Comandante-4260113435663-Nitro-Blade-Black/dp/B07JQ4P976/ref=sr_1_6?keywords=Comandante&amp;qid=1706991493&amp;sr=8-6&amp;ufe=app_do%25253Aamzn1.fos.c3015c4a-46bb-44b9-81a4-dc28e6d374b3&_encoding=UTF8&tag=tastinggrou0f-20&linkCode=ur2&linkId=6bca9d0da43eac929f8cf421f39a7579&camp=1789&creative=9325" target="_blank" rel="nofollow">Comandante C40</a>
                   : 16-20
                 </li>
                 <li>
@@ -206,7 +206,7 @@ export default function GrindSizesScreen() {
               <p><b>Approximate Settings</b></p>
               <ul>
                 <li>
-                  <a href="https://prima-coffee.com/equipment/comandante/c40-mk4-coman-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Comandante C40</a>
+                  <a href="https://www.amazon.com/Comandante-4260113435663-Nitro-Blade-Black/dp/B07JQ4P976/ref=sr_1_6?keywords=Comandante&amp;qid=1706991493&amp;sr=8-6&amp;ufe=app_do%25253Aamzn1.fos.c3015c4a-46bb-44b9-81a4-dc28e6d374b3&_encoding=UTF8&tag=tastinggrou0f-20&linkCode=ur2&linkId=6bca9d0da43eac929f8cf421f39a7579&camp=1789&creative=9325" target="_blank" rel="nofollow">Comandante C40</a>
                   : 21-25
                 </li>
                 <li>
@@ -245,7 +245,7 @@ export default function GrindSizesScreen() {
               <p><b>Approximate Settings</b></p>
               <ul>
                 <li>
-                  <a href="https://prima-coffee.com/equipment/comandante/c40-mk4-coman-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Comandante C40</a>
+                  <a href="https://www.amazon.com/Comandante-4260113435663-Nitro-Blade-Black/dp/B07JQ4P976/ref=sr_1_6?keywords=Comandante&amp;qid=1706991493&amp;sr=8-6&amp;ufe=app_do%25253Aamzn1.fos.c3015c4a-46bb-44b9-81a4-dc28e6d374b3&_encoding=UTF8&tag=tastinggrou0f-20&linkCode=ur2&linkId=6bca9d0da43eac929f8cf421f39a7579&camp=1789&creative=9325" target="_blank" rel="nofollow">Comandante C40</a>
                   : 26-30
                 </li>
                 <li>
@@ -284,7 +284,7 @@ export default function GrindSizesScreen() {
               <p><b>Approximate Settings</b></p>
               <ul>
                 <li>
-                  <a href="https://prima-coffee.com/equipment/comandante/c40-mk4-coman-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Comandante C40</a>
+                  <a href="https://www.amazon.com/Comandante-4260113435663-Nitro-Blade-Black/dp/B07JQ4P976/ref=sr_1_6?keywords=Comandante&amp;qid=1706991493&amp;sr=8-6&amp;ufe=app_do%25253Aamzn1.fos.c3015c4a-46bb-44b9-81a4-dc28e6d374b3&_encoding=UTF8&tag=tastinggrou0f-20&linkCode=ur2&linkId=6bca9d0da43eac929f8cf421f39a7579&camp=1789&creative=9325" target="_blank" rel="nofollow">Comandante C40</a>
                   : 31-35
                 </li>
                 <li>
@@ -326,7 +326,7 @@ export default function GrindSizesScreen() {
               <p><b>Approximate Settings</b></p>
               <ul>
                 <li>
-                  <a href="https://prima-coffee.com/equipment/comandante/c40-mk4-coman-pp?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Comandante C40</a>
+                  <a href="https://www.amazon.com/Comandante-4260113435663-Nitro-Blade-Black/dp/B07JQ4P976/ref=sr_1_6?keywords=Comandante&amp;qid=1706991493&amp;sr=8-6&amp;ufe=app_do%25253Aamzn1.fos.c3015c4a-46bb-44b9-81a4-dc28e6d374b3&_encoding=UTF8&tag=tastinggrou0f-20&linkCode=ur2&linkId=6bca9d0da43eac929f8cf421f39a7579&camp=1789&creative=9325" target="_blank" rel="nofollow">Comandante C40</a>
                   : 36+
                 </li>
                 <li>
