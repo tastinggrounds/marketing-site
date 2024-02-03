@@ -95,7 +95,7 @@ export default function GrindSizesScreen() {
                   : probably should try a different grinder
                 </li>
                 <li>
-                  <a href="https://prima-coffee.com/equipment/baratza/485?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Baratza Encore</a>
+                  <a href="https://www.amazon.com/Baratza-Encore-Conical-Coffee-Grinder/dp/B007F183LK/ref=sr_1_2?crid=WWZ5OK2Q9O5S&keywords=baratza+encore&qid=1706992111&s=home-garden&sprefix=bara%252Cgarden%252C372&sr=1-2&_encoding=UTF8&tag=tastinggrou0f-20&linkCode=ur2&linkId=8dbf4de8fc815b76ee99845214c35e8b&camp=1789&creative=9325" target="_blank" rel="nofollow">Baratza Encore</a>
                   : 1-5
                 </li>
               </ul>
@@ -137,7 +137,7 @@ export default function GrindSizesScreen() {
                   : 1-2
                 </li>
                 <li>
-                  <a href="https://prima-coffee.com/equipment/baratza/485?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Baratza Encore</a>
+                  <a href="https://www.amazon.com/Baratza-Encore-Conical-Coffee-Grinder/dp/B007F183LK/ref=sr_1_2?crid=WWZ5OK2Q9O5S&keywords=baratza+encore&qid=1706992111&s=home-garden&sprefix=bara%252Cgarden%252C372&sr=1-2&_encoding=UTF8&tag=tastinggrou0f-20&linkCode=ur2&linkId=8dbf4de8fc815b76ee99845214c35e8b&camp=1789&creative=9325" target="_blank" rel="nofollow">Baratza Encore</a>
                   : 5-10
                 </li>
               </ul>
@@ -179,7 +179,7 @@ export default function GrindSizesScreen() {
                   : 2-3
                 </li>
                 <li>
-                  <a href="https://prima-coffee.com/equipment/baratza/485?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Baratza Encore</a>
+                  <a href="https://www.amazon.com/Baratza-Encore-Conical-Coffee-Grinder/dp/B007F183LK/ref=sr_1_2?crid=WWZ5OK2Q9O5S&keywords=baratza+encore&qid=1706992111&s=home-garden&sprefix=bara%252Cgarden%252C372&sr=1-2&_encoding=UTF8&tag=tastinggrou0f-20&linkCode=ur2&linkId=8dbf4de8fc815b76ee99845214c35e8b&camp=1789&creative=9325" target="_blank" rel="nofollow">Baratza Encore</a>
                   : 10-15
                 </li>
               </ul>
@@ -218,7 +218,7 @@ export default function GrindSizesScreen() {
                   : 3-5
                 </li>
                 <li>
-                  <a href="https://prima-coffee.com/equipment/baratza/485?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Baratza Encore</a>
+                  <a href="https://www.amazon.com/Baratza-Encore-Conical-Coffee-Grinder/dp/B007F183LK/ref=sr_1_2?crid=WWZ5OK2Q9O5S&keywords=baratza+encore&qid=1706992111&s=home-garden&sprefix=bara%252Cgarden%252C372&sr=1-2&_encoding=UTF8&tag=tastinggrou0f-20&linkCode=ur2&linkId=8dbf4de8fc815b76ee99845214c35e8b&camp=1789&creative=9325" target="_blank" rel="nofollow">Baratza Encore</a>
                   : 10-20
                 </li>
               </ul>
@@ -257,7 +257,7 @@ export default function GrindSizesScreen() {
                   : 5-6
                 </li>
                 <li>
-                  <a href="https://prima-coffee.com/equipment/baratza/485?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Baratza Encore</a>
+                  <a href="https://www.amazon.com/Baratza-Encore-Conical-Coffee-Grinder/dp/B007F183LK/ref=sr_1_2?crid=WWZ5OK2Q9O5S&keywords=baratza+encore&qid=1706992111&s=home-garden&sprefix=bara%252Cgarden%252C372&sr=1-2&_encoding=UTF8&tag=tastinggrou0f-20&linkCode=ur2&linkId=8dbf4de8fc815b76ee99845214c35e8b&camp=1789&creative=9325" target="_blank" rel="nofollow">Baratza Encore</a>
                   : 20-25
                 </li>
               </ul>
@@ -296,7 +296,7 @@ export default function GrindSizesScreen() {
                   : 6-9
                 </li>
                 <li>
-                  <a href="https://prima-coffee.com/equipment/baratza/485?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Baratza Encore</a>
+                  <a href="https://www.amazon.com/Baratza-Encore-Conical-Coffee-Grinder/dp/B007F183LK/ref=sr_1_2?crid=WWZ5OK2Q9O5S&keywords=baratza+encore&qid=1706992111&s=home-garden&sprefix=bara%252Cgarden%252C372&sr=1-2&_encoding=UTF8&tag=tastinggrou0f-20&linkCode=ur2&linkId=8dbf4de8fc815b76ee99845214c35e8b&camp=1789&creative=9325" target="_blank" rel="nofollow">Baratza Encore</a>
                   : 25-30
                 </li>
               </ul>
@@ -338,7 +338,7 @@ export default function GrindSizesScreen() {
                   : 9-11
                 </li>
                 <li>
-                  <a href="https://prima-coffee.com/equipment/baratza/485?aff=75&utm_medium=affiliate" target="_blank" rel="nofollow">Baratza Encore</a>
+                  <a href="https://www.amazon.com/Baratza-Encore-Conical-Coffee-Grinder/dp/B007F183LK/ref=sr_1_2?crid=WWZ5OK2Q9O5S&keywords=baratza+encore&qid=1706992111&s=home-garden&sprefix=bara%252Cgarden%252C372&sr=1-2&_encoding=UTF8&tag=tastinggrou0f-20&linkCode=ur2&linkId=8dbf4de8fc815b76ee99845214c35e8b&camp=1789&creative=9325" target="_blank" rel="nofollow">Baratza Encore</a>
                   : 30-40
                 </li>
               </ul>
